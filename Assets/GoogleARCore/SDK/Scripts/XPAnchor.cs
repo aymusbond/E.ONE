@@ -1,7 +1,7 @@
 //-----------------------------------------------------------------------
-// <copyright file="XPAnchor.cs" company="Google">
+// <copyright file="XPAnchor.cs" company="Google LLC">
 //
-// Copyright 2018 Google Inc. All Rights Reserved.
+// Copyright 2018 Google LLC. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -29,6 +29,8 @@ namespace GoogleARCore.CrossPlatform
     /// <summary>
     /// A cross-platform anchor.
     /// </summary>
+    [HelpURL("https://developers.google.com/ar/reference/unity/class/GoogleARCore/CrossPlatform/" +
+             "XPAnchor")]
     public class XPAnchor : MonoBehaviour
     {
         private static Dictionary<IntPtr, XPAnchor> s_AnchorDict =
@@ -39,8 +41,9 @@ namespace GoogleARCore.CrossPlatform
         private bool m_IsSessionDestroyed = false;
 
         /// <summary>
-        /// Gets the cloud id associated with this anchor or null if none exists.  Only anchors created via
-        /// <c>XPSession.CreateCloudAnchor</c> and <c>XPSession.ResolveCloudAnchor</c> will have a cloud id.
+        /// Gets the cloud id associated with this anchor or null if none exists.  Only anchors
+        /// created via <c>XPSession.CreateCloudAnchor</c> and <c>XPSession.ResolveCloudAnchor</c>
+        /// will have a cloud id.
         /// </summary>
         public string CloudId { get; private set; }
 
@@ -56,20 +59,15 @@ namespace GoogleARCore.CrossPlatform
                     // Anchors from another session are considered stopped.
                     return XPTrackingState.Stopped;
                 }
-                else if (!LifecycleManager.Instance.IsTracking)
-                {
-                    // TODO (b/73256094): Remove isTracking when fixed.
-                    // If there are no new frames coming in we must manually return paused.
-                    return XPTrackingState.Paused;
-                }
 
-                return m_NativeSession.AnchorApi.GetTrackingState(m_NativeHandle).ToXPTrackingState();
+                return NativeSession.AnchorApi.GetTrackingState(NativeHandle)
+                    .ToXPTrackingState();
             }
         }
 
-        internal NativeSession m_NativeSession { get; private set; }
+        internal NativeSession NativeSession { get; private set; }
 
-        internal IntPtr m_NativeHandle { get; private set; }
+        internal IntPtr NativeHandle { get; private set; }
 
         internal static XPAnchor Factory(NativeSession nativeSession, IntPtr anchorHandle,
             bool isCreate = true)
@@ -83,7 +81,7 @@ namespace GoogleARCore.CrossPlatform
             if (s_AnchorDict.TryGetValue(anchorHandle, out result))
             {
                 // Release acquired handle and return cached result
-                result.m_NativeSession.AnchorApi.Release(anchorHandle);
+                AnchorApi.Release(anchorHandle);
                 return result;
             }
 
@@ -92,8 +90,8 @@ namespace GoogleARCore.CrossPlatform
                XPAnchor anchor = (new GameObject()).AddComponent<XPAnchor>();
                anchor.gameObject.name = "XPAnchor";
                anchor.CloudId = nativeSession.AnchorApi.GetCloudAnchorId(anchorHandle);
-               anchor.m_NativeHandle = anchorHandle;
-               anchor.m_NativeSession = nativeSession;
+               anchor.NativeHandle = anchorHandle;
+               anchor.NativeSession = nativeSession;
                anchor.Update();
 
                s_AnchorDict.Add(anchorHandle, anchor);
@@ -104,13 +102,14 @@ namespace GoogleARCore.CrossPlatform
         }
 
         /// <summary>
-        /// The Unity Update method.
+        /// Unity Update.
         /// </summary>
         private void Update()
         {
-            if (m_NativeHandle == IntPtr.Zero)
+            if (NativeHandle == IntPtr.Zero)
             {
-                Debug.LogError("Anchor components instantiated outside of ARCore are not supported. " +
+                Debug.LogError(
+                    "Anchor components instantiated outside of ARCore are not supported. " +
                     "Please use a 'Create' method within ARCore to instantiate anchors.");
                 return;
             }
@@ -120,7 +119,7 @@ namespace GoogleARCore.CrossPlatform
                 return;
             }
 
-            var pose = m_NativeSession.AnchorApi.GetPose(m_NativeHandle);
+            var pose = NativeSession.AnchorApi.GetPose(NativeHandle);
             transform.position = pose.position;
             transform.rotation = pose.rotation;
 
@@ -139,14 +138,18 @@ namespace GoogleARCore.CrossPlatform
 
         private void OnDestroy()
         {
-            if (m_NativeHandle == IntPtr.Zero)
+            if (NativeHandle == IntPtr.Zero)
             {
                 return;
             }
 
-            s_AnchorDict.Remove(m_NativeHandle);
-            m_NativeSession.AnchorApi.Detach(m_NativeHandle);
-            m_NativeSession.AnchorApi.Release(m_NativeHandle);
+            if (NativeSession != null && !NativeSession.IsDestroyed)
+            {
+                NativeSession.AnchorApi.Detach(NativeHandle);
+            }
+
+            s_AnchorDict.Remove(NativeHandle);
+            AnchorApi.Release(NativeHandle);
         }
 
         private bool _IsSessionDestroyed()
@@ -154,10 +157,11 @@ namespace GoogleARCore.CrossPlatform
             if (!m_IsSessionDestroyed)
             {
                 var nativeSession = LifecycleManager.Instance.NativeSession;
-                if (nativeSession != m_NativeSession)
+                if (nativeSession != NativeSession)
                 {
-                    Debug.LogErrorFormat("The session which created this anchor has been destroyed. " +
-                    "The anchor on GameObject {0} can no longer update.",
+                    Debug.LogErrorFormat(
+                        "The session which created this anchor has been destroyed. " +
+                        "The anchor on GameObject {0} can no longer update.",
                         this.gameObject != null ? this.gameObject.name : "Unknown");
                     m_IsSessionDestroyed = true;
                 }
