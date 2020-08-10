@@ -1,5 +1,6 @@
-#E.ONE
-Let's do it!
+# E.ONE
+
+**Let's do it!**
 
 The files commited consist of Unity 3d ver. 2019.4.4f1. 
 The basic set-up consists of:
