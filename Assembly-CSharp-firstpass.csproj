@@ -236,14 +236,14 @@
  <Reference Include="UnityEditor">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
+ <Reference Include="Google.Protobuf">
+ <HintPath>A:/Projects/Unity/E.ONE/Assets/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
+ </Reference>
  <Reference Include="Photon3Unity3D">
  <HintPath>A:/Projects/Unity/E.ONE/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
  <HintPath>A:/Projects/Unity/E.ONE/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
- </Reference>
- <Reference Include="Google.Protobuf">
- <HintPath>A:/Projects/Unity/E.ONE/Assets/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

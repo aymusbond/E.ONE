@@ -279,26 +279,26 @@
  <Reference Include="UnityEditor.Android.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="Google.Protobuf">
+ <HintPath>A:/Projects/Unity/E.ONE/Assets/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver_v1.2.122.0">
+ <HintPath>A:/Projects/Unity/E.ONE/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.122.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver_v1.2.122.0">
+ <HintPath>A:/Projects/Unity/E.ONE/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.122.0.dll</HintPath>
+ </Reference>
  <Reference Include="Google.VersionHandler">
  <HintPath>A:/Projects/Unity/E.ONE/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandlerImpl_v1.2.122.0">
+ <HintPath>A:/Projects/Unity/E.ONE/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.122.0.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
  <HintPath>A:/Projects/Unity/E.ONE/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
  <HintPath>A:/Projects/Unity/E.ONE/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
- </Reference>
- <Reference Include="Google.Protobuf">
- <HintPath>A:/Projects/Unity/E.ONE/Assets/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
- </Reference>
- <Reference Include="Google.JarResolver_v1.2.122.0">
- <HintPath>A:/Projects/Unity/E.ONE/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.122.0.dll</HintPath>
- </Reference>
- <Reference Include="Google.VersionHandlerImpl_v1.2.122.0">
- <HintPath>A:/Projects/Unity/E.ONE/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.122.0.dll</HintPath>
- </Reference>
- <Reference Include="Google.IOSResolver_v1.2.122.0">
- <HintPath>A:/Projects/Unity/E.ONE/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.122.0.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>A:/Projects/Unity/E.ONE/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
