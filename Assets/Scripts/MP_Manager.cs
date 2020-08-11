@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using UnityEngine.UI;
+using Photon.Realtime;
 
 public class MP_Manager : MonoBehaviourPunCallbacks
 {
@@ -61,7 +62,7 @@ public class MP_Manager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        RoomName_Display.enabled = true;
+        //RoomName_Display.enabled = true;
         RoomName_Display.text = PhotonNetwork.CurrentRoom.Name;
         foreach(GameObject disable in DisableOnJoinedRoom)
         {
@@ -78,4 +79,36 @@ public class MP_Manager : MonoBehaviourPunCallbacks
     {
         PhotonNetwork.LeaveRoom();
     }
+
+    public override void OnLeftRoom()
+    {
+        foreach(GameObject enable in EnableOnConnected)
+        {
+            enable.SetActive(true);
+        }
+    }
+
+    /*private void UpdateCachedRoomList(List<RoomInfo> roomList)
+    {
+        for(int i=0; i<roomList.Count; i++)
+        {
+            RoomInfo info = roomList[i];
+            if(enterroomID.text == info.Name)
+            {
+                PhotonNetwork.JoinRoom(enterroomID.text);
+            }
+            else
+            {
+                return;
+            }
+
+        }
+    }*/
+
+    public void JoinRoom()
+    {
+        PhotonNetwork.JoinRoom(enterroomID.text);
+    }
+
+
 }
