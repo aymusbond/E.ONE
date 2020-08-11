@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DevAccountEmail: abhi160302@gmail.com
   DevAccountToken: 1roto3beuow159g8kfjpa1axmtaos15ss83nptbw6ha98yyze5beyh1dzu11sczkyk3pjgp4r9fzs5a3cd77ztru6jne3iggyt573q5wzdahgnejswsx9m6zrndrtuptafi7x3o7573pte1jwn8pm8ah717bgmpw4p3sonet7spux3cq7zc3hzrppqer7d3t5gxmu13a
-  SelectedStudio: 
+  SelectedStudio: E.One
   SdkPath: Assets/PlayFabSDK
   EdExPath: 
   LocalCloudScriptPath: 
   PanelIsShown: 0
-  curMainMenuIdx: 0
+  curMainMenuIdx: 1
   curSubMenuIdx: 0

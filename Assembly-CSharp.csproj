@@ -241,7 +241,7 @@
      <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
      <Compile Include="Assets\Scripts\ButtonHandler.cs" />
      <Compile Include="Assets\Scripts\MP_Manager.cs" />
-     <Compile Include="Assets\Scripts\Payfab_Auth.cs" />
+     <Compile Include="Assets\Scripts\Playfab_Auth.cs" />
      <Compile Include="Assets\Scripts\WeaponRecoil.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -855,6 +855,9 @@
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:/Users/91913/Documents/GitHub/E.ONE/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Editor">
+        <HintPath>C:/Users/91913/Documents/GitHub/E.ONE/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:/Users/91913/Documents/GitHub/E.ONE/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -869,6 +872,9 @@
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
         <HintPath>C:/Users/91913/Documents/GitHub/E.ONE/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-weaver.Editor">
+        <HintPath>C:/Users/91913/Documents/GitHub/E.ONE/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
         <HintPath>C:/Users/91913/Documents/GitHub/E.ONE/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -891,22 +897,11 @@
     <Reference Include="UnityEditor.UI">
         <HintPath>C:/Users/91913/Documents/GitHub/E.ONE/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Editor">
-        <HintPath>C:/Users/91913/Documents/GitHub/E.ONE/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-weaver.Editor">
-        <HintPath>C:/Users/91913/Documents/GitHub/E.ONE/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
         <HintPath>C:/Users/91913/Documents/GitHub/E.ONE/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="PlayFabEditorExtensions.csproj">
-      <Project>{fa3e335d-3acc-eb51-5713-40ddcb77f1dd}</Project>
-      <Name>PlayFabEditorExtensions</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
       <Project>{cb539e66-9192-3aa7-d92a-87e91a109755}</Project>
       <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
@@ -927,9 +922,24 @@
       <Name>PhotonUnityNetworking.Demos</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="PlayFab.csproj">
+      <Project>{8e2cacc2-527b-0676-8226-274edd5bda9c}</Project>
+      <Name>PlayFab</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
       <Project>{c5dc7b40-86d2-000e-e1a7-bac6044fe3b4}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabEditorExtensions.csproj">
+      <Project>{fa3e335d-3acc-eb51-5713-40ddcb77f1dd}</Project>
+      <Name>PlayFabEditorExtensions</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabSDKEditor.csproj">
+      <Project>{83d5c159-d16d-044d-fd5b-48f627629b51}</Project>
+      <Name>PlayFabSDKEditor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="PhotonWebSocket.csproj">
@@ -960,16 +970,6 @@
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
       <Project>{db0a66c0-943f-36f5-e86b-cb83729f41ef}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="PlayFab.csproj">
-      <Project>{8e2cacc2-527b-0676-8226-274edd5bda9c}</Project>
-      <Name>PlayFab</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="PlayFabSDKEditor.csproj">
-      <Project>{83d5c159-d16d-044d-fd5b-48f627629b51}</Project>
-      <Name>PlayFabSDKEditor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
