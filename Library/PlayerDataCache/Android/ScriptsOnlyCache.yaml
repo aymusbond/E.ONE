@@ -6,9 +6,6 @@ ScriptsOnlyBuild:
     - GoogleARCore.ARCoreSession
     - GoogleARCore.ARCoreSessionConfig
     - GoogleARCore.EnvironmentalLight
-    - GoogleARCore.Examples.CloudAnchors.AnchorController
-    - GoogleARCore.Examples.CloudAnchors.LocalPlayerController
-    - GoogleARCore.Examples.CloudAnchors.StarController
     - MP_Manager
     - Player_Manager
     - Playfab_Auth
@@ -48,9 +45,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
-    com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
-    - UnityEngine.Networking.NetworkIdentity
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -80,50 +74,52 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11230}
+      Script: {instanceID: 11232}
     - Class: 114
-      Script: {instanceID: 11262}
+      Script: {instanceID: 11264}
     - Class: 114
-      Script: {instanceID: 11532}
+      Script: {instanceID: 11534}
     - Class: 114
-      Script: {instanceID: 11568}
+      Script: {instanceID: 11570}
     - Class: 114
-      Script: {instanceID: 11636}
+      Script: {instanceID: 11638}
     - Class: 114
-      Script: {instanceID: 12254}
+      Script: {instanceID: 12256}
     - Class: 114
-      Script: {instanceID: 12306}
+      Script: {instanceID: 12308}
     - Class: 114
-      Script: {instanceID: 12708}
+      Script: {instanceID: 12710}
     - Class: 114
-      Script: {instanceID: 12750}
+      Script: {instanceID: 12752}
     - Class: 114
-      Script: {instanceID: 12788}
+      Script: {instanceID: 12790}
     - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 12940}
     - Class: 114
-      Script: {instanceID: 12992}
+      Script: {instanceID: 12994}
     - Class: 114
-      Script: {instanceID: 13210}
+      Script: {instanceID: 13214}
     - Class: 114
-      Script: {instanceID: 13254}
+      Script: {instanceID: 13258}
     - Class: 114
-      Script: {instanceID: 13274}
+      Script: {instanceID: 13278}
     - Class: 114
-      Script: {instanceID: 13586}
+      Script: {instanceID: 13590}
     - Class: 114
-      Script: {instanceID: 13682}
+      Script: {instanceID: 13686}
     - Class: 114
-      Script: {instanceID: 13974}
+      Script: {instanceID: 13978}
     - Class: 114
-      Script: {instanceID: 14150}
+      Script: {instanceID: 14156}
     - Class: 114
-      Script: {instanceID: 14206}
+      Script: {instanceID: 14212}
     - Class: 114
-      Script: {instanceID: 14318}
+      Script: {instanceID: 14324}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -155,29 +151,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11262}
+      Script: {instanceID: 11264}
     - Class: 114
-      Script: {instanceID: 12136}
+      Script: {instanceID: 12138}
     - Class: 114
-      Script: {instanceID: 12146}
+      Script: {instanceID: 12148}
     - Class: 114
-      Script: {instanceID: 12254}
+      Script: {instanceID: 12256}
     - Class: 114
-      Script: {instanceID: 12508}
+      Script: {instanceID: 12510}
     - Class: 114
-      Script: {instanceID: 13220}
+      Script: {instanceID: 13224}
     - Class: 114
-      Script: {instanceID: 13294}
+      Script: {instanceID: 13298}
     - Class: 114
-      Script: {instanceID: 13402}
+      Script: {instanceID: 13406}
     - Class: 114
-      Script: {instanceID: 13682}
+      Script: {instanceID: 13686}
     - Class: 114
-      Script: {instanceID: 13900}
+      Script: {instanceID: 13904}
     - Class: 114
-      Script: {instanceID: 14206}
+      Script: {instanceID: 14212}
     - Class: 114
-      Script: {instanceID: 14318}
+      Script: {instanceID: 14324}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -833,7 +829,7 @@ ScriptsOnlyBuild:
     className: ChatController
   - hash:
       serializedVersion: 2
-      Hash: f80be283f21da2982e1aa614c8b35f16
+      Hash: 823e39bc3276748c401b3dd6149d14d7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player_Manager
@@ -1289,6 +1285,12 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: 269133bf6785f1e198f98a5b4b08eda1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ARCoreWorldOriginHelper_
+  - hash:
+      serializedVersion: 2
       Hash: e6ae40841db498b6e673877ac45ad208
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
@@ -1473,12 +1475,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 269133bf6785f1e198f98a5b4b08eda1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ARCoreWorldOriginHelper_
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
