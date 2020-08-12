@@ -16,6 +16,8 @@ public class MP_Manager : MonoBehaviourPunCallbacks
     public GameObject[] EnableOnConnected;
     public GameObject[] DisableOnJoinedRoom;
 
+    public Camera fpsCam;
+
 
     // Start is called before the first frame update
     void Start()
@@ -68,6 +70,12 @@ public class MP_Manager : MonoBehaviourPunCallbacks
         {
             disable.SetActive(false);
         }
+
+        /*if(PhotonNetwork.CurrentRoom.PlayerCount >=2)
+        {
+            PhotonNetwork.Instantiate("gun", fpsCam.transform.position, Quaternion.identity, 0);
+        }*/
+        PhotonNetwork.LoadLevel(1);
     }
 
     public override void OnCreateRoomFailed(short returnCode, string message)
@@ -108,6 +116,11 @@ public class MP_Manager : MonoBehaviourPunCallbacks
     public void JoinRoom()
     {
         PhotonNetwork.JoinRoom(enterroomID.text);
+    }
+
+    public void OnJoinRoomFailed()
+    {
+        errorDisplay.text = "Room Creation Failed! [ " + " ] ";
     }
 
 
