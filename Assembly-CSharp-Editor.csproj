@@ -756,6 +756,14 @@
       <Project>{5D333EFA-CC3A-51EB-5713-40DDCB77F1DD}</Project>
       <Name>PlayFabEditorExtensions</Name>
     </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{269754B8-9B66-C331-2E05-A7882277B550}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTouch.csproj">
+      <Project>{1AF74203-1A03-F051-D65C-4F2DB916FA69}</Project>
+      <Name>LeanTouch</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

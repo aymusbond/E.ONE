@@ -71,4 +71,4 @@ public class WeaponRecoil : MonoBehaviour
             positionalRecoil += new Vector3(Random.Range(-RecoilKickBack.x, RecoilKickBack.x), Random.Range(-RecoilKickBack.y, RecoilKickBack.y), RecoilKickBack.z);
         }
     }
-}
+} 
