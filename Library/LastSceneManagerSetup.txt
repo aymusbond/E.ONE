@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/GoogleARCore/Examples/CloudAnchors/Scenes/CloudAnchors.unity
+- path: Assets/Scenes/SampleScene_2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
