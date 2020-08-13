@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene_2.unity
     guid: 112917e642adeb6418aa4cba4cf74be8
-  - enabled: 1
-    path: Assets/Scenes/Arpit.unity
-    guid: d89174a5657fad94ea03cb965f3efc8e
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

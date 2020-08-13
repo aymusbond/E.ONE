@@ -1,0 +1,33 @@
+{
+    "name": "GunControls",
+    "maps": [
+        {
+            "name": "Gun",
+            "id": "b6642685-e385-40ad-a0a6-f6729e1249e9",
+            "actions": [
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "59427b8f-6633-48c9-b782-d140b4e13784",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "798d4d01-87fa-49a0-90ce-2751d31ac590",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
