@@ -14,8 +14,8 @@ public class WeaponRecoil : MonoBehaviour
     public float rotationalRecoilSpeed = 8f;
     [Space(10)]
 
-    public float positionalReturnSpeed = 8f;
-    public float rotationalReturnSpeed = 8f;
+    public float positionalReturnSpeed = 18f;
+    public float rotationalReturnSpeed = 38f;
     [Space(10)]
 
     [Header("Amount Settings:")]
@@ -44,7 +44,7 @@ public class WeaponRecoil : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire"))
+        if (Input.GetButtonDown("Fire1"))
         {
             Fire();
         }
