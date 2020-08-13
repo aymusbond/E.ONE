@@ -6,10 +6,7 @@ ScriptsOnlyBuild:
     - GoogleARCore.ARCoreSession
     - GoogleARCore.ARCoreSessionConfig
     - GoogleARCore.EnvironmentalLight
-    - MP_Manager
     - Player_Manager
-    - Playfab_Auth
-    - Room_Manager
     PhotonUnityNetworking.Editor.dll:
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
@@ -29,24 +26,16 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.SpatialTracking.dll:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
-    UnityEngine.UI.dll:
-    - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.Button
-    - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.Image
-    - UnityEngine.UI.InputField
-    - UnityEngine.UI.Text
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Arpit.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -67,54 +56,44 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
-    - Class: 81
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
-    - Class: 109
+    - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11232}
+      Script: {instanceID: 12132}
     - Class: 114
-      Script: {instanceID: 11264}
+      Script: {instanceID: 12142}
     - Class: 114
-      Script: {instanceID: 11534}
+      Script: {instanceID: 12302}
     - Class: 114
-      Script: {instanceID: 11570}
+      Script: {instanceID: 12504}
     - Class: 114
-      Script: {instanceID: 11638}
+      Script: {instanceID: 12746}
     - Class: 114
-      Script: {instanceID: 12256}
+      Script: {instanceID: 12784}
     - Class: 114
-      Script: {instanceID: 12308}
+      Script: {instanceID: 12934}
     - Class: 114
-      Script: {instanceID: 12710}
+      Script: {instanceID: 12988}
     - Class: 114
-      Script: {instanceID: 12752}
+      Script: {instanceID: 13252}
     - Class: 114
-      Script: {instanceID: 12790}
+      Script: {instanceID: 13272}
     - Class: 114
-      Script: {instanceID: 12940}
+      Script: {instanceID: 13292}
     - Class: 114
-      Script: {instanceID: 12994}
+      Script: {instanceID: 13400}
     - Class: 114
-      Script: {instanceID: 13214}
+      Script: {instanceID: 13898}
     - Class: 114
-      Script: {instanceID: 13258}
+      Script: {instanceID: 13972}
     - Class: 114
-      Script: {instanceID: 13278}
+      Script: {instanceID: 14150}
     - Class: 114
-      Script: {instanceID: 13590}
-    - Class: 114
-      Script: {instanceID: 13686}
-    - Class: 114
-      Script: {instanceID: 13978}
-    - Class: 114
-      Script: {instanceID: 14156}
-    - Class: 114
-      Script: {instanceID: 14212}
-    - Class: 114
-      Script: {instanceID: 14324}
+      Script: {instanceID: 14206}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -125,64 +104,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/SampleScene_2.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11264}
-    - Class: 114
-      Script: {instanceID: 12138}
-    - Class: 114
-      Script: {instanceID: 12148}
-    - Class: 114
-      Script: {instanceID: 12256}
-    - Class: 114
-      Script: {instanceID: 12510}
-    - Class: 114
-      Script: {instanceID: 13224}
-    - Class: 114
-      Script: {instanceID: 13298}
-    - Class: 114
-      Script: {instanceID: 13406}
-    - Class: 114
-      Script: {instanceID: 13686}
-    - Class: 114
-      Script: {instanceID: 13904}
-    - Class: 114
-      Script: {instanceID: 14212}
-    - Class: 114
-      Script: {instanceID: 14324}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
+    - Class: 258
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1477,6 +1399,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  - Assets/Scenes/SampleScene_2.unity
-  playerPath: C:/Build_Tests/PlayFab_2.apk
+  - Assets/Scenes/Arpit.unity
+  playerPath: A:/Projects/Unity/E.ONE/test.apk
