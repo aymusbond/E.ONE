@@ -9,6 +9,8 @@ public class Player_Manager : MonoBehaviourPunCallbacks
     //public ARCoreWorldOriginHelper_ ARCoreWorldOriginHelper;
     public Vector3 pos = new Vector3(-0.26f, -4.24f, -3.88f);
     // Start is called before the first frame update
+
+
     void Start()
     {
         if(photonView.IsMine)
@@ -16,7 +18,7 @@ public class Player_Manager : MonoBehaviourPunCallbacks
             CreateController();
         }
 
-        //pos = new Vector3(-0.26f, -4.24f, -3.88f);
+        
         
     }
 
@@ -26,10 +28,14 @@ public class Player_Manager : MonoBehaviourPunCallbacks
         
     }
 
+    [PunRPC]
     void CreateController()
     {
-        GameObject player = PhotonNetwork.Instantiate("Player", Vector3.zero , Quaternion.identity, 0) as GameObject;
-        //SetWorldOrigin(player.transform);
+        if(PhotonNetwork.IsMasterClient)
+        {
+        GameObject player = (GameObject)PhotonNetwork.InstantiateSceneObject("player", Vector3.zero , Quaternion.identity, 0, null);
+        player.GetComponent<PhotonView>().RPC("SetTeamID", RpcTarget.AllBuffered, 9);
+        }
     }
 
     /*void SetWorldOrigin(Transform player)

@@ -1,7 +1,7 @@
 //-----------------------------------------------------------------------
-// <copyright file="ARCoreProjectSettings.cs" company="Google LLC">
+// <copyright file="ARCoreProjectSettings.cs" company="Google">
 //
-// Copyright 2017 Google LLC. All Rights Reserved.
+// Copyright 2017 Google Inc. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -33,41 +33,32 @@ namespace GoogleARCoreInternal
         public string Version;
         public bool IsARCoreRequired;
         public bool IsInstantPreviewEnabled;
-        public bool IsIOSSupportEnabled;
         public string CloudServicesApiKey;
-        public string IosCloudServicesApiKey;
+        private const string k_VersionString = "V1.1.0";
         private const string k_ProjectSettingsPath = "ProjectSettings/ARCoreProjectSettings.json";
-        private static ARCoreProjectSettings s_Instance = null;
 
-        public static ARCoreProjectSettings Instance
+        static ARCoreProjectSettings()
         {
-            get
+            if (Application.isEditor)
             {
-                if (s_Instance == null)
-                {
-                    if (Application.isEditor)
-                    {
-                        s_Instance = new ARCoreProjectSettings();
-                        s_Instance.Load();
-                    }
-                    else
-                    {
-                        Debug.LogError("Cannot access ARCoreProjectSettings outside of " +
-                            "Unity Editor.");
-                    }
-                }
-
-                return s_Instance;
+                Instance = new ARCoreProjectSettings();
+                Instance.Load();
+            }
+            else
+            {
+                Instance = null;
+                Debug.LogError("Cannot access ARCoreProjectSettings outside of Unity Editor.");
             }
         }
 
+        public static ARCoreProjectSettings Instance { get; private set; }
+
         public void Load()
         {
-            Version = GoogleARCore.VersionInfo.Version;
+            Version = k_VersionString;
             IsARCoreRequired = true;
             IsInstantPreviewEnabled = true;
             CloudServicesApiKey = string.Empty;
-            IosCloudServicesApiKey = string.Empty;
 
             if (File.Exists(k_ProjectSettingsPath))
             {
@@ -77,28 +68,13 @@ namespace GoogleARCoreInternal
                 IsARCoreRequired = settings.IsARCoreRequired;
                 IsInstantPreviewEnabled = settings.IsInstantPreviewEnabled;
                 CloudServicesApiKey = settings.CloudServicesApiKey;
-                IosCloudServicesApiKey = settings.IosCloudServicesApiKey;
-                IsIOSSupportEnabled = settings.IsIOSSupportEnabled;
             }
 
-            // Upgrades settings from V1.0.0 to V1.1.0.
+            // Upgrades settings from v1.0.0 to v1.1.0
             if (Version.Equals("V1.0.0"))
             {
                 IsInstantPreviewEnabled = true;
-                Version = "V1.1.0";
-            }
-
-            // Upgrades setting from V1.1.0 and V1.2.0 to V1.3.0.
-            // Note: V1.2.0 went out with k_VersionString = V1.1.0
-            if (Version.Equals("V1.1.0"))
-            {
-                IosCloudServicesApiKey = CloudServicesApiKey;
-                Version = "V1.3.0";
-            }
-
-            if (!Version.Equals(GoogleARCore.VersionInfo.Version))
-            {
-                Version = GoogleARCore.VersionInfo.Version;
+                Version = k_VersionString;
             }
         }
 

@@ -1,7 +1,7 @@
 //-----------------------------------------------------------------------
-// <copyright file="LifecycleManager.cs" company="Google LLC">
+// <copyright file="LifecycleManager.cs" company="Google">
 //
-// Copyright 2017 Google LLC. All Rights Reserved.
+// Copyright 2017 Google Inc. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -28,6 +28,10 @@ namespace GoogleARCoreInternal
     {
         private static ILifecycleManager s_Instance;
 
+        public delegate void EarlyUpdateDelegate();
+
+        public delegate void FrameUpdatedDelegate(FrameUpdate frameInfo);
+
         public static ILifecycleManager Instance
         {
             get
@@ -48,24 +52,11 @@ namespace GoogleARCoreInternal
             }
         }
 
-        /// <summary>
-        /// Force reset the singleton instance to null. Should only be used in Unit Test.
-        /// </summary>
-        internal static void ResetInstance()
+        public struct FrameUpdate
         {
-            if (s_Instance != null)
-            {
-                if (Application.platform == RuntimePlatform.IPhonePlayer)
-                {
-                    ARCoreIOSLifecycleManager.ResetInstance();
-                }
-                else
-                {
-                    ARCoreAndroidLifecycleManager.ResetInstance();
-                }
-
-                s_Instance = null;
-            }
+            public bool IsTracking;
+            public IntPtr SessionHandle;
+            public IntPtr FrameHandle;
         }
     }
 }

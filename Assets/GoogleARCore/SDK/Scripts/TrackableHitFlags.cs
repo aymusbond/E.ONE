@@ -1,7 +1,7 @@
 //-----------------------------------------------------------------------
-// <copyright file="TrackableHitFlags.cs" company="Google LLC">
+// <copyright file="TrackableHitFlags.cs" company="Google">
 //
-// Copyright 2017 Google LLC. All Rights Reserved.
+// Copyright 2017 Google Inc. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -37,7 +37,7 @@ namespace GoogleARCore
         None = 0,
 
         /// <summary>
-        /// The collision is within the DetectedPlane's convex bounding polygon.
+        /// The collision is within the the DetectedPlane's convex bounding polygon.
         /// </summary>
         PlaneWithinPolygon = 1 << 0,
 
@@ -62,13 +62,5 @@ namespace GoogleARCore
         /// that has a surface normal estimate (orientation).
         /// </summary>
         FeaturePointWithSurfaceNormal = 1 << 4,
-
-        /// <summary>
-        /// This value is used to collide with all things good for placing objects.
-        ///
-        /// If you pass this into Raycast, you will collide with planes within the bounding
-        /// polygon and feature points with normals.
-        /// </summary>
-        Default = PlaneWithinPolygon | FeaturePointWithSurfaceNormal
     }
 }

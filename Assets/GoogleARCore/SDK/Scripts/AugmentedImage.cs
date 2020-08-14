@@ -1,7 +1,7 @@
 //-----------------------------------------------------------------------
-// <copyright file="AugmentedImage.cs" company="Google LLC">
+// <copyright file="AugmentedImage.cs" company="Google">
 //
-// Copyright 2018 Google LLC. All Rights Reserved.
+// Copyright 2018 Google Inc. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -62,7 +62,6 @@ namespace GoogleARCore
         /// </summary>
         public string Name
         {
-            [SuppressMemoryAllocationError(IsWarning = true, Reason = "Allocates new string")]
             get
             {
                 return m_NativeSession.AugmentedImageApi.GetName(m_TrackableNativeHandle);
@@ -86,7 +85,7 @@ namespace GoogleARCore
         }
 
         /// <summary>
-        /// Gets the estimated width, in meters, of the corresponding physical image, as measured along
+        /// Gets the estimated width, in metres, of the corresponding physical image, as measured along
         /// the local X-axis (point from image left to image right) of the coordinate space centered on the
         /// image.
         ///
@@ -106,7 +105,7 @@ namespace GoogleARCore
         }
 
         /// <summary>
-        /// Gets the estimated height, in meters, of the corresponding physical image, as measured along the local
+        /// Gets the estimated height, in metres, of the corresponding physical image, as measured along the local
         /// Z-axis (pointing from image bottom to image top) of the coordinate space centered on the image.
         ///
         /// ARCore will attempt to estimate the physical image's height based on its understanding of the world. If
@@ -121,18 +120,6 @@ namespace GoogleARCore
             get
             {
                 return m_NativeSession.AugmentedImageApi.GetExtentZ(m_TrackableNativeHandle);
-            }
-        }
-
-        /// <summary>
-        /// Gets the current method being used to track this Augmented Image.
-        /// </summary>
-        /// <value>The current tracking method being used.</value>
-        public AugmentedImageTrackingMethod TrackingMethod
-        {
-            get
-            {
-                return m_NativeSession.AugmentedImageApi.GetTrackingMethod(m_TrackableNativeHandle);
             }
         }
     }

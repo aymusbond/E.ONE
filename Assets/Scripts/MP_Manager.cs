@@ -10,13 +10,11 @@ public class MP_Manager : MonoBehaviourPunCallbacks
     public InputField enterroomID; 
     public Text errorDisplay;
     public Text RoomName_Display;
-    //public Text connectionState;
 
     public GameObject[] DisableOnConnected;
     public GameObject[] EnableOnConnected;
     public GameObject[] DisableOnJoinedRoom;
-
-    public Camera fpsCam;
+    //public GameObject[] EnableOnJoinedRoom;
 
 
     // Start is called before the first frame update
@@ -59,28 +57,25 @@ public class MP_Manager : MonoBehaviourPunCallbacks
         {
             return;
         }
+        
         PhotonNetwork.CreateRoom(enterroomID.text);
     }
 
     public override void OnJoinedRoom()
     {
-        //RoomName_Display.enabled = true;
         RoomName_Display.text = PhotonNetwork.CurrentRoom.Name;
         foreach(GameObject disable in DisableOnJoinedRoom)
         {
             disable.SetActive(false);
         }
 
-        /*if(PhotonNetwork.CurrentRoom.PlayerCount >=2)
-        {
-            PhotonNetwork.Instantiate("gun", fpsCam.transform.position, Quaternion.identity, 0);
-        }*/
         PhotonNetwork.LoadLevel(1);
+        
+        
     }
-
     public override void OnCreateRoomFailed(short returnCode, string message)
     {
-        errorDisplay.text = "Room Creation Failed! [ " + " ] ";
+        errorDisplay.text = "Room Creation Failed! [ " + message + " ] ";
     } 
 
     public void OnLeaveRoom()
@@ -96,31 +91,14 @@ public class MP_Manager : MonoBehaviourPunCallbacks
         }
     }
 
-    /*private void UpdateCachedRoomList(List<RoomInfo> roomList)
-    {
-        for(int i=0; i<roomList.Count; i++)
-        {
-            RoomInfo info = roomList[i];
-            if(enterroomID.text == info.Name)
-            {
-                PhotonNetwork.JoinRoom(enterroomID.text);
-            }
-            else
-            {
-                return;
-            }
-
-        }
-    }*/
-
     public void JoinRoom()
     {
         PhotonNetwork.JoinRoom(enterroomID.text);
     }
 
-    public void OnJoinRoomFailed()
+    public override void OnJoinRoomFailed(short shortCode, string message)
     {
-        errorDisplay.text = "Room Creation Failed! [ " + " ] ";
+        errorDisplay.text = "Room Creation Failed! [ " + message +" ] ";
     }
 
 
