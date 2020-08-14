@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Arpit.unity
+    guid: 2efda78f4f6df084b8c18f6251d032c5
   m_configObjects: {}
