@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2020-08-15T16:38:37.189+05:30
+  initializedAtString: 2020-08-15T16:26:44.437+05:30
+  entries:
+  - path: Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar
+    projectPath: Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar.meta
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar.meta
+    projectPath: Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabEditorPrefsSO.asset
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabEditorPrefsSO.asset
+    projectPath: Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabEditorPrefsSO.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabUnitySdk.unitypackage.meta
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabUnitySdk.unitypackage.meta
+    projectPath: Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabUnitySdk.unitypackage.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Prefabs.meta
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Prefabs.meta
+    projectPath: Assets\Prefabs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\Arpit.unity
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Arpit.unity
+    projectPath: Assets\Scenes\Arpit.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\WeaponAim.cs
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\WeaponAim.cs
+    projectPath: Assets\Scripts\WeaponAim.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\WeaponAim.cs.meta
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\WeaponAim.cs.meta
+    projectPath: Assets\Scripts\WeaponAim.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\WeaponRecoil.cs
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\WeaponRecoil.cs
+    projectPath: Assets\Scripts\WeaponRecoil.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\EditorBuildSettings.asset
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\GraphicsSettings.asset
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\GraphicsSettings.asset
+    projectPath: ProjectSettings\GraphicsSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\ProjectSettings.asset
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\ProjectVersion.txt
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\ProjectVersion.txt
+    projectPath: ProjectSettings\ProjectVersion.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
