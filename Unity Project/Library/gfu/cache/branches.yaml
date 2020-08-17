@@ -13,15 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-08-15T16:38:34.901+05:30
-  initializedAtString: 2020-08-15T16:26:44.410+05:30
+  lastUpdatedAtString: 2020-08-17T17:24:27.283+05:30
+  initializedAtString: 2020-08-17T16:11:37.992+05:30
   localBranches:
   - name: master
     tracking: origin/master
   remoteBranches:
   - name: origin/HEAD
-    tracking: '[None]'
-  - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
@@ -46,15 +44,9 @@ MonoBehaviour:
     subKeys:
     - Values:
       - HEAD
-      - master
     subKeyValues:
     - Values:
       - name: HEAD
-        remote:
-          name: origin
-          url: https://github.com/aymusbond/HackBots.E.ONE.git
-        trackingBranch: 
-      - name: master
         remote:
           name: origin
           url: https://github.com/aymusbond/HackBots.E.ONE.git

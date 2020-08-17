@@ -18,8 +18,7 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-namespace GoogleARCore.Examples.CloudAnchors
-{
+
     using System.Collections.Generic;
     using GoogleARCore;
     using GoogleARCore.Examples.Common;
@@ -182,4 +181,4 @@ namespace GoogleARCore.Examples.CloudAnchors
             return new Pose(position, rotation);
         }
     }
-}
+

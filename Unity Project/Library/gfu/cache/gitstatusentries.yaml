@@ -13,36 +13,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-08-15T16:38:37.189+05:30
-  initializedAtString: 2020-08-15T16:26:44.437+05:30
+  lastUpdatedAtString: 2020-08-17T17:24:31.395+05:30
+  initializedAtString: 2020-08-17T15:14:53.804+05:30
   entries:
-  - path: Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar
-    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar
-    projectPath: Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar
+  - path: Assets\GoogleARCore\Examples\CloudAnchors\Scenes.meta
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scenes.meta
+    projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scenes.meta
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar.meta
-    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar.meta
-    projectPath: Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar.meta
+  - path: Assets\GoogleARCore\SDK\InstantPreview\Scripts\InstantPreview.apk.meta
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\InstantPreview\Scripts\InstantPreview.apk.meta
+    projectPath: Assets\GoogleARCore\SDK\InstantPreview\Scripts\InstantPreview.apk.meta
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabEditorPrefsSO.asset
-    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabEditorPrefsSO.asset
-    projectPath: Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabEditorPrefsSO.asset
+  - path: Assets\Resources\Sounds.meta
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\Sounds.meta
+    projectPath: Assets\Resources\Sounds.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabUnitySdk.unitypackage.meta
-    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabUnitySdk.unitypackage.meta
-    projectPath: Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabUnitySdk.unitypackage.meta
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Sounds\Gun+Silencer.mp3
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\Sounds\Gun+Silencer.mp3
+    projectPath: Assets\Resources\Sounds\Gun+Silencer.mp3
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Prefabs.meta
-    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Prefabs.meta
-    projectPath: Assets\Prefabs.meta
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Sounds\Gun+Silencer.mp3.meta
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\Sounds\Gun+Silencer.mp3.meta
+    projectPath: Assets\Resources\Sounds\Gun+Silencer.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Sounds\zapsplat_impacts_body_hit_baseball_bat_hard_whack_crack_squelchy_bloody_005_44151.mp3
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\Sounds\zapsplat_impacts_body_hit_baseball_bat_hard_whack_crack_squelchy_bloody_005_44151.mp3
+    projectPath: Assets\Resources\Sounds\zapsplat_impacts_body_hit_baseball_bat_hard_whack_crack_squelchy_bloody_005_44151.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Sounds\zapsplat_impacts_body_hit_baseball_bat_hard_whack_crack_squelchy_bloody_005_44151.mp3.meta
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\Sounds\zapsplat_impacts_body_hit_baseball_bat_hard_whack_crack_squelchy_bloody_005_44151.mp3.meta
+    projectPath: Assets\Resources\Sounds\zapsplat_impacts_body_hit_baseball_bat_hard_whack_crack_squelchy_bloody_005_44151.mp3.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -52,33 +64,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\WeaponAim.cs
-    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\WeaponAim.cs
-    projectPath: Assets\Scripts\WeaponAim.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\WeaponAim.cs.meta
-    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\WeaponAim.cs.meta
-    projectPath: Assets\Scripts\WeaponAim.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\WeaponRecoil.cs
-    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\WeaponRecoil.cs
-    projectPath: Assets\Scripts\WeaponRecoil.cs
+  - path: Assets\Scripts\SoundManager.cs
+    fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\SoundManager.cs
+    projectPath: Assets\Scripts\SoundManager.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: ProjectSettings\EditorBuildSettings.asset
     fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\EditorBuildSettings.asset
     projectPath: ProjectSettings\EditorBuildSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\GraphicsSettings.asset
-    fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\GraphicsSettings.asset
-    projectPath: ProjectSettings\GraphicsSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

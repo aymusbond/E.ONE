@@ -13,9 +13,3702 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-08-15T16:27:28.107+05:30
-  initializedAtString: 2020-08-15T16:27:25.678+05:30
+  lastUpdatedAtString: 2020-08-17T17:24:28.372+05:30
+  initializedAtString: 2020-08-17T16:11:39.178+05:30
   log:
+  - commitID: 807e6980eeaf8d48b934fe69edea4f74b952e64d
+    mergeA: cf27ed6c8127e7d2efe44be38bc1090b820a9ac5
+    mergeB: 6c17a5bb3da4c98ea1aa97c147f915edeca837aa
+    authorName: manhiem
+    authorEmail: 59243227+manhiem@users.noreply.github.com
+    commitEmail: 59243227+manhiem@users.noreply.github.com
+    commitName: manhiem
+    summary: Merge branch 'master' of https://github.com/aymusbond/HackBots.E.ONE
+    description: 
+    timeString: 2020-08-17T14:45:56.000+05:30
+    commitTimeString: 2020-08-17T14:45:56.000+05:30
+    changes: []
+  - commitID: cf27ed6c8127e7d2efe44be38bc1090b820a9ac5
+    mergeA: 
+    mergeB: 
+    authorName: manhiem
+    authorEmail: 59243227+manhiem@users.noreply.github.com
+    commitEmail: 59243227+manhiem@users.noreply.github.com
+    commitName: manhiem
+    summary: Bugs fixed in Photon and UI Updates
+    description: 
+    timeString: 2020-08-17T14:44:59.000+05:30
+    commitTimeString: 2020-08-17T14:44:59.000+05:30
+    changes:
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scenes.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scenes.meta
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\InstantPreview\Scripts\InstantPreview.apk.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\InstantPreview\Scripts\InstantPreview.apk.meta
+      projectPath: Assets\GoogleARCore\SDK\InstantPreview\Scripts\InstantPreview.apk.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonLibs\Metro\Photon3Unity3D.dll.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonLibs\Metro\Photon3Unity3D.dll.meta
+      projectPath: Assets\Photon\PhotonLibs\Metro\Photon3Unity3D.dll.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonLibs\Photon3Unity3D.dll.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonLibs\Photon3Unity3D.dll.meta
+      projectPath: Assets\Photon\PhotonLibs\Photon3Unity3D.dll.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll.meta
+      projectPath: Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll.meta
+      projectPath: Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Code\Editor\CopyIcon.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Code\Editor\CopyIcon.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Code\Editor\CopyIcon.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Code\Editor\CopyIconPro.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Code\Editor\CopyIconPro.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Code\Editor\CopyIconPro.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Code\Editor\PunGradient.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Code\Editor\PunGradient.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Code\Editor\PunGradient.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Code\Editor\help.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Code\Editor\help.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Code\Editor\help.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\Asteroid01.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\Asteroid01.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\Asteroid01.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\FlyerAsteroidB.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\FlyerAsteroidB.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\FlyerAsteroidB.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\LaserBolt.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\LaserBolt.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\LaserBolt.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\Spaceship.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\Spaceship.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\Spaceship.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerAsteroidEmissive.tif.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerAsteroidEmissive.tif.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerAsteroidEmissive.tif.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipAlbedo.tif.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipAlbedo.tif.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipAlbedo.tif.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipEmission.tif.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipEmission.tif.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipEmission.tif.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipOcclusion.tif.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipOcclusion.tif.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipOcclusion.tif.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\Gradient.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\Gradient.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\Gradient.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\OutlinedSquaredBox.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\OutlinedSquaredBox.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\OutlinedSquaredBox.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\PunIcon-White-129.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\PunIcon-White-129.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\PunIcon-White-129.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\toHub.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\toHub.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\toHub.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\toHub.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\toHub.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\toHub.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\Textures\tankco.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\Textures\tankco.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\Textures\tankco.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\billboardLower.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\billboardLower.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\billboardLower.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\flagGreen.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\flagGreen.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\flagGreen.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\rail.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\rail.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\rail.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\roadCornerSmall.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadCornerSmall.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadCornerSmall.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\roadCornerSmallBorder.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadCornerSmallBorder.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadCornerSmallBorder.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\roadRampLongCurvedWall.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadRampLongCurvedWall.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadRampLongCurvedWall.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\roadStart.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadStart.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadStart.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\roadStartPositions.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadStartPositions.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadStartPositions.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\roadStraight.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadStraight.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadStraight.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\roadStraightBridgeStart.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadStraightBridgeStart.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadStraightBridgeStart.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Stylized
+        city\Models\bush1.FBX.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\bush1.FBX.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\bush1.FBX.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Stylized
+        city\Models\car_1.FBX.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\car_1.FBX.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\car_1.FBX.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Stylized
+        city\Models\car_3.FBX.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\car_3.FBX.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\car_3.FBX.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Stylized
+        city\Models\car_4.FBX.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\car_4.FBX.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\car_4.FBX.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Stylized
+        city\Models\hamvee.FBX.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\hamvee.FBX.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\hamvee.FBX.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Stylized
+        city\Models\tree_1.FBX.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\tree_1.FBX.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\tree_1.FBX.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Stylized
+        city\Models\tree_6.FBX.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\tree_6.FBX.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\tree_6.FBX.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidCrouch.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidCrouch.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidCrouch.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidIdle.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidIdle.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidIdle.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidIdleJumpUp.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidIdleJumpUp.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidIdleJumpUp.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidJumpAndFall.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidJumpAndFall.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidJumpAndFall.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidMidAir.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidMidAir.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidMidAir.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidRun.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidRun.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidRun.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidRunTurn.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidRunTurn.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidRunTurn.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidRunTurnSharp.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidRunTurnSharp.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidRunTurnSharp.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidStandTurn.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidStandTurn.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidStandTurn.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidWalk.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidWalk.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidWalk.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidWalkTurn.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidWalkTurn.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidWalkTurn.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidWalkTurnSharp.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidWalkTurnSharp.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidWalkTurnSharp.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Models\Pointer.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Models\Pointer.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Models\Pointer.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Models\Robot
+        Kyle.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Models\Robot Kyle.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Models\Robot
+        Kyle.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxBright.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\BoxBright.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxBright.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxOrange.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\BoxOrange.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxOrange.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxOrangeRed.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\BoxOrangeRed.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxOrangeRed.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxText.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\BoxText.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxText.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxTextHover.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\BoxTextHover.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxTextHover.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\DropDown
+        Arrow.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\DropDown Arrow.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\DropDown
+        Arrow.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\DropDown
+        CheckMark.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\DropDown CheckMark.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\DropDown
+        CheckMark.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\RoundedBox.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\RoundedBox.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\RoundedBox.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\Toggle.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\Toggle.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\Toggle.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\ToggleHover.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\ToggleHover.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\ToggleHover.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\ToggleOn.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\ToggleOn.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\ToggleOn.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\ToggleOnHover.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\ToggleOnHover.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\ToggleOnHover.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\Gradient.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Textures\Gradient.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\Gradient.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\Robot_Color.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Textures\Robot_Color.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\Robot_Color.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\Robot_Normal.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Textures\Robot_Normal.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\Robot_Normal.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\UnitCircleTexture.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Textures\UnitCircleTexture.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\UnitCircleTexture.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\UnitTexture.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Textures\UnitTexture.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\UnitTexture.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\UnitTextureBlue.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Textures\UnitTextureBlue.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\UnitTextureBlue.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\UnitTextureRed.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Textures\UnitTextureRed.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\UnitTextureRed.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Icons\PunIcon-128.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Icons\PunIcon-128.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Icons\PunIcon-128.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp128.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp128.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp128.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp32.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp32.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp32.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp48.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp48.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp48.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp512.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp512.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp512.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Resources\PhotonServerSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Resources\PhotonServerSettings.asset
+      projectPath: Assets\Photon\PhotonUnityNetworking\Resources\PhotonServerSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Resources\Cloud Anchor Controller.prefab
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\Cloud Anchor Controller.prefab
+      projectPath: Assets\Resources\Cloud Anchor Controller.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Resources\Cloud Anchor Controller.prefab.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\Cloud Anchor Controller.prefab.meta
+      projectPath: Assets\Resources\Cloud Anchor Controller.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Resources\Player.prefab
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\Player.prefab
+      projectPath: Assets\Resources\Player.prefab
+      originalPath: Assets\Resources\gun.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\Player.prefab.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\Player.prefab.meta
+      projectPath: Assets\Resources\Player.prefab.meta
+      originalPath: Assets\Resources\gun.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\Star.prefab
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\Star.prefab
+      projectPath: Assets\Resources\Star.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Resources\Star.prefab.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\Star.prefab.meta
+      projectPath: Assets\Resources\Star.prefab.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Abhiram\CloudAnchors.unity
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Abhiram\CloudAnchors.unity
+      projectPath: Assets\Scenes\Abhiram\CloudAnchors.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\CloudAnchorManager.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\CloudAnchorManager.cs
+      projectPath: Assets\Scripts\CloudAnchorManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\GameManager.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\GameManager.cs
+      projectPath: Assets\Scripts\GameManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\packages-lock.json
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 6c17a5bb3da4c98ea1aa97c147f915edeca837aa
+    mergeA: 
+    mergeB: 
+    authorName: aymusbond
+    authorEmail: aymusbond@users.noreply.github.com
+    commitEmail: aymusbond@users.noreply.github.com
+    commitName: aymusbond
+    summary: SoundManager script
+    description: 
+    timeString: 2020-08-16T23:22:56.000+05:30
+    commitTimeString: 2020-08-16T23:22:56.000+05:30
+    changes:
+    - path: Assets\Scenes\Arpit.unity
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Arpit.unity
+      projectPath: Assets\Scenes\Arpit.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\SoundManager.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\SoundManager.cs
+      projectPath: Assets\Scripts\SoundManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: ea934dc86981964a36866f42f3503fe9df7a31ac
+    mergeA: 4f5d9120b6d4bed4a8f90e0fbf797c98506495ce
+    mergeB: 281d8723cf6182dc1b725ee0802c243af1a94bf7
+    authorName: manhiem
+    authorEmail: 59243227+manhiem@users.noreply.github.com
+    commitEmail: 59243227+manhiem@users.noreply.github.com
+    commitName: manhiem
+    summary: Merge branch 'master' of https://github.com/aymusbond/HackBots.E.ONE
+    description: 
+    timeString: 2020-08-16T23:16:58.000+05:30
+    commitTimeString: 2020-08-16T23:16:58.000+05:30
+    changes: []
+  - commitID: 4f5d9120b6d4bed4a8f90e0fbf797c98506495ce
+    mergeA: 
+    mergeB: 
+    authorName: manhiem
+    authorEmail: 59243227+manhiem@users.noreply.github.com
+    commitEmail: 59243227+manhiem@users.noreply.github.com
+    commitName: manhiem
+    summary: Successfully Instantiating Objects
+    description: 
+    timeString: 2020-08-16T23:15:16.000+05:30
+    commitTimeString: 2020-08-16T23:15:16.000+05:30
+    changes:
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\ARCoreWorldOriginHelper.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\ARCoreWorldOriginHelper.cs
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\ARCoreWorldOriginHelper.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Resources\PhotonServerSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Resources\PhotonServerSettings.asset
+      projectPath: Assets\Photon\PhotonUnityNetworking\Resources\PhotonServerSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Prefabs.meta
+      projectPath: Assets\Prefabs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Resources\Star.prefab
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\Star.prefab
+      projectPath: Assets\Resources\Star.prefab
+      originalPath: Assets\GoogleARCore\Examples\CloudAnchors\Prefabs\Star.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\Star.prefab.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\Star.prefab.meta
+      projectPath: Assets\Resources\Star.prefab.meta
+      originalPath: Assets\GoogleARCore\Examples\CloudAnchors\Prefabs\Star.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\gun.prefab
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\gun.prefab
+      projectPath: Assets\Resources\gun.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Abhiram.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Abhiram.meta
+      projectPath: Assets\Scenes\Abhiram.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Abhiram\CloudAnchors.unity
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Abhiram\CloudAnchors.unity
+      projectPath: Assets\Scenes\Abhiram\CloudAnchors.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\CameraTracker.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\CameraTracker.cs
+      projectPath: Assets\Scripts\CameraTracker.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CameraTracker.cs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\CameraTracker.cs.meta
+      projectPath: Assets\Scripts\CameraTracker.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CloudAnchorManager.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\CloudAnchorManager.cs
+      projectPath: Assets\Scripts\CloudAnchorManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\GameManager.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\GameManager.cs
+      projectPath: Assets\Scripts\GameManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\UIManager.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\UIManager.cs
+      projectPath: Assets\Scripts\UIManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 281d8723cf6182dc1b725ee0802c243af1a94bf7
+    mergeA: 
+    mergeB: 
+    authorName: padmaja-22
+    authorEmail: pskbuggaveeti@gmail.com
+    commitEmail: pskbuggaveeti@gmail.com
+    commitName: padmaja-22
+    summary: Had set backgrounds and replaced login page
+    description: 
+    timeString: 2020-08-16T17:27:41.000+05:30
+    commitTimeString: 2020-08-16T17:27:41.000+05:30
+    changes:
+    - path: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll.meta
+      projectPath: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll.meta
+      projectPath: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\InstantPreview\Scripts\InstantPreview.apk.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\InstantPreview\Scripts\InstantPreview.apk.meta
+      projectPath: Assets\GoogleARCore\SDK\InstantPreview\Scripts\InstantPreview.apk.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\Plugins.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Plugins\Plugins.meta
+      projectPath: Assets\Plugins\Plugins.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Prefabs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Prefabs.meta
+      projectPath: Assets\Prefabs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Resources\gun.prefab.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\gun.prefab.meta
+      projectPath: Assets\Resources\gun.prefab.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Scenes.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Scenes.meta
+      projectPath: Assets\Scenes\Scenes.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Sprites\Btn01.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Sprites\Btn01.png.meta
+      projectPath: Assets\Sprites\Btn01.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Icon25.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Sprites\Icon25.png.meta
+      projectPath: Assets\Sprites\Icon25.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\LargeBackground.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Sprites\LargeBackground.png.meta
+      projectPath: Assets\Sprites\LargeBackground.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\MainAudioMixer.mixer.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Sprites\MainAudioMixer.mixer.meta
+      projectPath: Assets\Sprites\MainAudioMixer.mixer.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\OrangeBtn.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Sprites\OrangeBtn.png.meta
+      projectPath: Assets\Sprites\OrangeBtn.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\RedBtn.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Sprites\RedBtn.png.meta
+      projectPath: Assets\Sprites\RedBtn.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\TitleBar.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Sprites\TitleBar.png.meta
+      projectPath: Assets\Sprites\TitleBar.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\UI\MainAudioMixer.mixer.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\MainAudioMixer.mixer.meta
+      projectPath: Assets\UI\MainAudioMixer.mixer.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 096f115db73c0dcf6de90119722764e9de156750
+    mergeA: 6022aede62d3ec096115217d529f6e9f504ce47b
+    mergeB: 4f535526b5751e9bd49620dac5c6c09b4610d08f
+    authorName: padmaja-22
+    authorEmail: pskbuggaveeti@gmail.com
+    commitEmail: pskbuggaveeti@gmail.com
+    commitName: padmaja-22
+    summary: Merge branch 'master' of https://github.com/aymusbond/HackBots.E.ONE
+    description: 
+    timeString: 2020-08-16T17:10:17.000+05:30
+    commitTimeString: 2020-08-16T17:10:17.000+05:30
+    changes: []
+  - commitID: 4f535526b5751e9bd49620dac5c6c09b4610d08f
+    mergeA: 
+    mergeB: 
+    authorName: aymusbond
+    authorEmail: aymusbond@users.noreply.github.com
+    commitEmail: aymusbond@users.noreply.github.com
+    commitName: aymusbond
+    summary: Added HealthBar and it's controls.
+    description: 
+    timeString: 2020-08-16T15:51:47.000+05:30
+    commitTimeString: 2020-08-16T15:51:47.000+05:30
+    changes:
+    - path: Assets\GoogleARCore\Configurations\DefaultSessionConfig.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Configurations\DefaultSessionConfig.asset
+      projectPath: Assets\GoogleARCore\Configurations\DefaultSessionConfig.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\Materials\ARBackground.mat
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Materials\ARBackground.mat
+      projectPath: Assets\GoogleARCore\SDK\Materials\ARBackground.mat
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\Materials.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\Materials.meta
+      projectPath: Assets\Resources\laser-gun\Materials.meta
+      originalPath: Assets\GoogleARCore\Examples\CloudAnchors\Scenes.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\Materials\lambert10.mat
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\Materials\lambert10.mat
+      projectPath: Assets\Resources\laser-gun\Materials\lambert10.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\Materials\lambert10.mat.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\Materials\lambert10.mat.meta
+      projectPath: Assets\Resources\laser-gun\Materials\lambert10.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Resources\\laser-gun\\Materials\\\u68CB\u76D8\u683CUV.mat"
+      fullPath: "A:\\Projects\\Unity\\HackBots.E.ONE\\Assets\\Resources\\laser-gun\\Materials\\\u68CB\u76D8\u683CUV.mat"
+      projectPath: "Assets\\Resources\\laser-gun\\Materials\\\u68CB\u76D8\u683CUV.mat"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Resources\\laser-gun\\Materials\\\u68CB\u76D8\u683CUV.mat.meta"
+      fullPath: "A:\\Projects\\Unity\\HackBots.E.ONE\\Assets\\Resources\\laser-gun\\Materials\\\u68CB\u76D8\u683CUV.mat.meta"
+      projectPath: "Assets\\Resources\\laser-gun\\Materials\\\u68CB\u76D8\u683CUV.mat.meta"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Arpit.unity
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Arpit.unity
+      projectPath: Assets\Scenes\Arpit.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Arpit\LightingData.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Arpit\LightingData.asset
+      projectPath: Assets\Scenes\Arpit\LightingData.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Padmaja's Scene.unity
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Padmaja's Scene.unity
+      projectPath: Assets\Scenes\Padmaja's Scene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\HealthBarControls.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\HealthBarControls.cs
+      projectPath: Assets\Scripts\HealthBarControls.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\HealthBarControls.cs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\HealthBarControls.cs.meta
+      projectPath: Assets\Scripts\HealthBarControls.cs.meta
+      originalPath: Assets\Scripts\HealthBarControl.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\SoundManager.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\SoundManager.cs
+      projectPath: Assets\Scripts\SoundManager.cs
+      originalPath: Assets\Scripts\HealthBarControl.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\SoundManager.cs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\SoundManager.cs.meta
+      projectPath: Assets\Scripts\SoundManager.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 6022aede62d3ec096115217d529f6e9f504ce47b
+    mergeA: 
+    mergeB: 
+    authorName: padmaja-22
+    authorEmail: pskbuggaveeti@gmail.com
+    commitEmail: pskbuggaveeti@gmail.com
+    commitName: padmaja-22
+    summary: Replaced login with user ID
+    description: 
+    timeString: 2020-08-16T12:10:45.000+05:30
+    commitTimeString: 2020-08-16T12:10:45.000+05:30
+    changes:
+    - path: .gitignore
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Images\introduction.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Images\introduction.png.meta
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Images\introduction.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\circle.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\circle.png.meta
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\circle.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Textures\Surface.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Textures\Surface.png.meta
+      projectPath: Assets\GoogleARCore\Examples\Common\Textures\Surface.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Textures\background.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Textures\background.png.meta
+      projectPath: Assets\GoogleARCore\Examples\Common\Textures\background.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Textures\ic_settings.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Textures\ic_settings.png.meta
+      projectPath: Assets\GoogleARCore\Examples\Common\Textures\ic_settings.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll.meta
+      projectPath: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll.meta
+      projectPath: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Models\laser-gun\textures\gun_r.tga.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Models\laser-gun\textures\gun_r.tga.png.meta
+      projectPath: Assets\Models\laser-gun\textures\gun_r.tga.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonLibs\Metro\Photon3Unity3D.dll.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonLibs\Metro\Photon3Unity3D.dll.meta
+      projectPath: Assets\Photon\PhotonLibs\Metro\Photon3Unity3D.dll.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonLibs\Photon3Unity3D.dll.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonLibs\Photon3Unity3D.dll.meta
+      projectPath: Assets\Photon\PhotonLibs\Photon3Unity3D.dll.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll.meta
+      projectPath: Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll.meta
+      projectPath: Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Code\Editor\CopyIcon.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Code\Editor\CopyIcon.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Code\Editor\CopyIcon.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Code\Editor\CopyIconPro.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Code\Editor\CopyIconPro.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Code\Editor\CopyIconPro.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Code\Editor\PunGradient.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Code\Editor\PunGradient.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Code\Editor\PunGradient.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Code\Editor\help.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Code\Editor\help.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Code\Editor\help.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\Asteroid01.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\Asteroid01.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\Asteroid01.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\FlyerAsteroidB.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\FlyerAsteroidB.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\FlyerAsteroidB.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\LaserBolt.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\LaserBolt.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\LaserBolt.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\Spaceship.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\Spaceship.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Models\Spaceship.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerAsteroidEmissive.tif.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerAsteroidEmissive.tif.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerAsteroidEmissive.tif.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipAlbedo.tif.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipAlbedo.tif.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipAlbedo.tif.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipEmission.tif.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipEmission.tif.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipEmission.tif.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipOcclusion.tif.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipOcclusion.tif.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Textures\FlyerPlayershipOcclusion.tif.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\Gradient.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\Gradient.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\Gradient.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\OutlinedSquaredBox.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\OutlinedSquaredBox.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\OutlinedSquaredBox.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\PunIcon-White-129.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\PunIcon-White-129.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\PunIcon-White-129.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\toHub.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\toHub.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Sprites\toHub.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\toHub.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\toHub.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\toHub.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\Textures\tankco.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\Textures\tankco.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\Textures\tankco.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\billboardLower.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\billboardLower.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\billboardLower.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\flagGreen.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\flagGreen.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\flagGreen.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\rail.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\rail.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\rail.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\roadCornerSmall.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadCornerSmall.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadCornerSmall.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\roadCornerSmallBorder.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadCornerSmallBorder.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadCornerSmallBorder.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\roadRampLongCurvedWall.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadRampLongCurvedWall.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadRampLongCurvedWall.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\roadStart.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadStart.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadStart.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\roadStartPositions.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadStartPositions.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadStartPositions.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\roadStraight.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadStraight.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadStraight.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Racing
+        Kit\Models\roadStraightBridgeStart.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadStraightBridgeStart.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Racing Kit\Models\roadStraightBridgeStart.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Stylized
+        city\Models\bush1.FBX.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\bush1.FBX.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\bush1.FBX.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Stylized
+        city\Models\car_1.FBX.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\car_1.FBX.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\car_1.FBX.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Stylized
+        city\Models\car_3.FBX.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\car_3.FBX.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\car_3.FBX.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Stylized
+        city\Models\car_4.FBX.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\car_4.FBX.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\car_4.FBX.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Stylized
+        city\Models\hamvee.FBX.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\hamvee.FBX.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\hamvee.FBX.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Stylized
+        city\Models\tree_1.FBX.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\tree_1.FBX.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\tree_1.FBX.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney Assets\Stylized
+        city\Models\tree_6.FBX.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\tree_6.FBX.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Kenney
+        Assets\Stylized city\Models\tree_6.FBX.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidCrouch.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidCrouch.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidCrouch.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidIdle.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidIdle.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidIdle.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidIdleJumpUp.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidIdleJumpUp.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidIdleJumpUp.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidJumpAndFall.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidJumpAndFall.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidJumpAndFall.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidMidAir.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidMidAir.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidMidAir.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidRun.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidRun.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidRun.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidRunTurn.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidRunTurn.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidRunTurn.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidRunTurnSharp.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidRunTurnSharp.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidRunTurnSharp.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidStandTurn.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidStandTurn.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidStandTurn.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidWalk.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidWalk.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidWalk.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidWalkTurn.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidWalkTurn.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidWalkTurn.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidWalkTurnSharp.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Animations\HumanoidWalkTurnSharp.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Animations\HumanoidWalkTurnSharp.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Models\Pointer.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Models\Pointer.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Models\Pointer.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Models\Robot
+        Kyle.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Models\Robot Kyle.fbx.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Models\Robot
+        Kyle.fbx.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxBright.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\BoxBright.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxBright.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxOrange.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\BoxOrange.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxOrange.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxOrangeRed.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\BoxOrangeRed.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxOrangeRed.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxText.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\BoxText.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxText.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxTextHover.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\BoxTextHover.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\BoxTextHover.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\DropDown
+        Arrow.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\DropDown Arrow.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\DropDown
+        Arrow.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\DropDown
+        CheckMark.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\DropDown CheckMark.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\DropDown
+        CheckMark.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\RoundedBox.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\RoundedBox.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\RoundedBox.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\Toggle.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\Toggle.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\Toggle.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\ToggleHover.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\ToggleHover.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\ToggleHover.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\ToggleOn.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\ToggleOn.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\ToggleOn.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\ToggleOnHover.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Skin\ToggleOnHover.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\ToggleOnHover.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\Gradient.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Textures\Gradient.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\Gradient.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\Robot_Color.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Textures\Robot_Color.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\Robot_Color.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\Robot_Normal.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Textures\Robot_Normal.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\Robot_Normal.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\UnitCircleTexture.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Textures\UnitCircleTexture.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\UnitCircleTexture.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\UnitTexture.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Textures\UnitTexture.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\UnitTexture.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\UnitTextureBlue.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Textures\UnitTextureBlue.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\UnitTextureBlue.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\UnitTextureRed.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Demos\Shared
+        Assets\Textures\UnitTextureRed.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Textures\UnitTextureRed.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Icons\PunIcon-128.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Icons\PunIcon-128.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Icons\PunIcon-128.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp128.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp128.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp128.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp32.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp32.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp32.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp48.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp48.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp48.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp512.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp512.png.meta
+      projectPath: Assets\Photon\PhotonUnityNetworking\Icons\PunIconApp512.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\Black.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\Black.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\Black.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\Clear.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\Clear.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\Clear.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\Gray_base.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\Gray_base.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\Gray_base.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\Gray_dk1.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\Gray_dk1.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\Gray_dk1.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\Gray_lt1.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\Gray_lt1.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\Gray_lt1.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\Gray_lt2.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\Gray_lt2.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\Gray_lt2.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\Orange.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\Orange.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\Orange.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\Square.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\Square.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\Square.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\White.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\White.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\White.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\checkmark.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\checkmark.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\checkmark.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\checkmark_off.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\checkmark_off.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\checkmark_off.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\checkmark_on.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\checkmark_on.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\checkmark_on.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\dashboardIcon.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\dashboardIcon.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\dashboardIcon.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\dashboardIconHover.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\dashboardIconHover.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\dashboardIconHover.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\dn_colored.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\dn_colored.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\dn_colored.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\dn_gray.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\dn_gray.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\dn_gray.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\green.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\green.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\green.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\pfFullLogo_O.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\pfFullLogo_O.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\pfFullLogo_O.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\pfFullLogo_W.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\pfFullLogo_W.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\pfFullLogo_W.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\playfablogo.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\playfablogo.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\playfablogo.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\r_colored.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\r_colored.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\r_colored.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\r_gray.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\r_gray.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\r_gray.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\red.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\red.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\red.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\UI\Images\yellow.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\UI\Images\yellow.png.meta
+      projectPath: Assets\PlayFabEditorExtensions\Editor\UI\Images\yellow.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayFabSDK\Shared\Editor\PlayFablogo.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabSDK\Shared\Editor\PlayFablogo.png.meta
+      projectPath: Assets\PlayFabSDK\Shared\Editor\PlayFablogo.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Plugins\Plugins.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Plugins\Plugins.meta
+      projectPath: Assets\Plugins\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Padmaja's Scene.unity
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Padmaja's Scene.unity
+      projectPath: Assets\Scenes\Padmaja's Scene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Scenes.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Scenes.meta
+      projectPath: Assets\Scenes\Scenes.meta
+      originalPath: Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabUnitySdk.unitypackage.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro.meta
+      projectPath: Assets\TextMesh Pro.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Documentation.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Documentation.meta
+      projectPath: Assets\TextMesh Pro\Documentation.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Documentation\TextMesh
+        Pro User Guide 2016.pdf.meta
+      projectPath: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Fonts.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Fonts.meta
+      projectPath: Assets\TextMesh Pro\Fonts.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Fonts\LiberationSans
+        - OFL.txt.meta
+      projectPath: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+      projectPath: Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources.meta
+      projectPath: Assets\TextMesh Pro\Resources.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Fonts
+        & Materials.meta
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF -
+        Drop Shadow.mat
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\LiberationSans SDF - Drop Shadow.mat
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+        SDF - Drop Shadow.mat
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF -
+        Drop Shadow.mat.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\LiberationSans SDF - Drop Shadow.mat.meta
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+        SDF - Drop Shadow.mat.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF -
+        Fallback.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\LiberationSans SDF - Fallback.asset
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+        SDF - Fallback.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF -
+        Fallback.asset.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\LiberationSans SDF - Fallback.asset.meta
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+        SDF - Fallback.asset.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF -
+        Outline.mat
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\LiberationSans SDF - Outline.mat
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+        SDF - Outline.mat
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF -
+        Outline.mat.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\LiberationSans SDF - Outline.mat.meta
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+        SDF - Outline.mat.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\LiberationSans SDF.asset
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+        SDF.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\LiberationSans SDF.asset.meta
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+        SDF.asset.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\LineBreaking
+        Following Characters.txt.meta
+      projectPath: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\LineBreaking
+        Leading Characters.txt.meta
+      projectPath: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Shaders.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Shaders.meta
+      projectPath: Assets\TextMesh Pro\Resources\Shaders.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+      projectPath: Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader.meta
+      projectPath: Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader.meta
+      projectPath: Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF
+        Overlay.shader.meta
+      projectPath: Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile
+        Masking.shader.meta
+      projectPath: Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile
+        Overlay.shader.meta
+      projectPath: Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader.meta
+      projectPath: Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+      projectPath: Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader.meta
+      projectPath: Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader.meta
+      projectPath: Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader.meta
+      projectPath: Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc.meta
+      projectPath: Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc.meta
+      projectPath: Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc.meta
+      projectPath: Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Sprite Assets.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Sprite
+        Assets.meta
+      projectPath: Assets\TextMesh Pro\Resources\Sprite Assets.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Sprite
+        Assets\EmojiOne.asset
+      projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Sprite
+        Assets\EmojiOne.asset.meta
+      projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Style Sheets.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Style
+        Sheets.meta
+      projectPath: Assets\TextMesh Pro\Resources\Style Sheets.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Style
+        Sheets\Default Style Sheet.asset
+      projectPath: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\Style
+        Sheets\Default Style Sheet.asset.meta
+      projectPath: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\TMP Settings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\TMP
+        Settings.asset
+      projectPath: Assets\TextMesh Pro\Resources\TMP Settings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Resources\TMP
+        Settings.asset.meta
+      projectPath: Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Sprites.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Sprites.meta
+      projectPath: Assets\TextMesh Pro\Sprites.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Sprites\EmojiOne
+        Attribution.txt.meta
+      projectPath: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+      projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+      projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\UI.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI.meta
+      projectPath: Assets\UI.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\Btn01.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\Btn01.png
+      projectPath: Assets\UI\Btn01.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\Btn01.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\Btn01.png.meta
+      projectPath: Assets\UI\Btn01.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\Btn_V08.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\Btn_V08.png
+      projectPath: Assets\UI\Btn_V08.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\Btn_V08.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\Btn_V08.png.meta
+      projectPath: Assets\UI\Btn_V08.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\Btn_V12.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\Btn_V12.png
+      projectPath: Assets\UI\Btn_V12.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\Btn_V12.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\Btn_V12.png.meta
+      projectPath: Assets\UI\Btn_V12.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\ButtonPanel.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\ButtonPanel.png
+      projectPath: Assets\UI\ButtonPanel.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\ButtonPanel.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\ButtonPanel.png.meta
+      projectPath: Assets\UI\ButtonPanel.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\Cell125x121px.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\Cell125x121px.png
+      projectPath: Assets\UI\Cell125x121px.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\Cell125x121px.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\Cell125x121px.png.meta
+      projectPath: Assets\UI\Cell125x121px.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\GreenBtn.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\GreenBtn.png
+      projectPath: Assets\UI\GreenBtn.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\GreenBtn.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\GreenBtn.png.meta
+      projectPath: Assets\UI\GreenBtn.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\Icon25.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\Icon25.png
+      projectPath: Assets\UI\Icon25.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\Icon25.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\Icon25.png.meta
+      projectPath: Assets\UI\Icon25.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\LargeBackground.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\LargeBackground.png
+      projectPath: Assets\UI\LargeBackground.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\LargeBackground.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\LargeBackground.png.meta
+      projectPath: Assets\UI\LargeBackground.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\MainAudioMixer.mixer
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\MainAudioMixer.mixer
+      projectPath: Assets\UI\MainAudioMixer.mixer
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\MainAudioMixer.mixer.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\MainAudioMixer.mixer.meta
+      projectPath: Assets\UI\MainAudioMixer.mixer.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\OrangeBtn.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\OrangeBtn.png
+      projectPath: Assets\UI\OrangeBtn.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\OrangeBtn.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\OrangeBtn.png.meta
+      projectPath: Assets\UI\OrangeBtn.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\RedBtn.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\RedBtn.png
+      projectPath: Assets\UI\RedBtn.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\RedBtn.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\RedBtn.png.meta
+      projectPath: Assets\UI\RedBtn.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\SaveSlot.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\SaveSlot.png
+      projectPath: Assets\UI\SaveSlot.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\SaveSlot.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\SaveSlot.png.meta
+      projectPath: Assets\UI\SaveSlot.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\TitleBar.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\TitleBar.png
+      projectPath: Assets\UI\TitleBar.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\TitleBar.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\TitleBar.png.meta
+      projectPath: Assets\UI\TitleBar.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\Window03_Btn.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\Window03_Btn.png
+      projectPath: Assets\UI\Window03_Btn.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\Window03_Btn.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\Window03_Btn.png.meta
+      projectPath: Assets\UI\Window03_Btn.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\audio.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\audio.png
+      projectPath: Assets\UI\audio.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\audio.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\audio.png.meta
+      projectPath: Assets\UI\audio.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\options.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\options.png
+      projectPath: Assets\UI\options.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\options.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\options.png.meta
+      projectPath: Assets\UI\options.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\return.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\return.png
+      projectPath: Assets\UI\return.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UI\return.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\UI\return.png.meta
+      projectPath: Assets\UI\return.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\packages-lock.json
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\XRSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\XRSettings.asset
+      projectPath: ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: a0a08ab5cc3d37ca4a654d6083a9e61ec4c9524a
+    mergeA: ae649e1b2401900b8dfe22e98483ed15a401a30e
+    mergeB: 37c013389aed8a404642952e2c1072d020c162df
+    authorName: aymusbond
+    authorEmail: aymusbond@users.noreply.github.com
+    commitEmail: aymusbond@users.noreply.github.com
+    commitName: aymusbond
+    summary: Merge branch 'master' of https://github.com/aymusbond/HackBots.E.ONE
+    description: 
+    timeString: 2020-08-16T09:59:03.000+05:30
+    commitTimeString: 2020-08-16T09:59:03.000+05:30
+    changes: []
+  - commitID: ae649e1b2401900b8dfe22e98483ed15a401a30e
+    mergeA: 
+    mergeB: 
+    authorName: aymusbond
+    authorEmail: aymusbond@users.noreply.github.com
+    commitEmail: aymusbond@users.noreply.github.com
+    commitName: aymusbond
+    summary: Added the health script.
+    description: 
+    timeString: 2020-08-16T09:58:56.000+05:30
+    commitTimeString: 2020-08-16T09:58:56.000+05:30
+    changes:
+    - path: Assets\Scenes\Abhiram.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Abhiram.meta
+      projectPath: Assets\Scenes\Abhiram.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Arpit.unity
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Arpit.unity
+      projectPath: Assets\Scenes\Arpit.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\HealthBarControl.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\HealthBarControl.cs
+      projectPath: Assets\Scripts\HealthBarControl.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\HealthBarControl.cs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\HealthBarControl.cs.meta
+      projectPath: Assets\Scripts\HealthBarControl.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 37c013389aed8a404642952e2c1072d020c162df
+    mergeA: ac06167a35b37aca294b64b538cbf3d8f93a1329
+    mergeB: 03eafe5beb8b33d4c8abad33bcb22bd2250c6e7b
+    authorName: manhiem
+    authorEmail: 59243227+manhiem@users.noreply.github.com
+    commitEmail: 59243227+manhiem@users.noreply.github.com
+    commitName: manhiem
+    summary: Merge branch 'master' of https://github.com/aymusbond/HackBots.E.ONE
+    description: 
+    timeString: 2020-08-16T09:46:26.000+05:30
+    commitTimeString: 2020-08-16T09:46:26.000+05:30
+    changes: []
+  - commitID: ac06167a35b37aca294b64b538cbf3d8f93a1329
+    mergeA: 
+    mergeB: 
+    authorName: manhiem
+    authorEmail: 59243227+manhiem@users.noreply.github.com
+    commitEmail: 59243227+manhiem@users.noreply.github.com
+    commitName: manhiem
+    summary: Minor Changes in Cloud Anchor
+    description: 
+    timeString: 2020-08-16T09:46:18.000+05:30
+    commitTimeString: 2020-08-16T09:46:18.000+05:30
+    changes:
+    - path: Assets\Models\laser-gun\source\gun.fbx
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Models\laser-gun\source\gun.fbx
+      projectPath: Assets\Models\laser-gun\source\gun.fbx
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\laser-gun\textures\gun_E.tga.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Models\laser-gun\textures\gun_E.tga.png
+      projectPath: Assets\Models\laser-gun\textures\gun_E.tga.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\laser-gun\textures\gun_ao.tga.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Models\laser-gun\textures\gun_ao.tga.png
+      projectPath: Assets\Models\laser-gun\textures\gun_ao.tga.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\laser-gun\textures\gun_c.tga.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Models\laser-gun\textures\gun_c.tga.png
+      projectPath: Assets\Models\laser-gun\textures\gun_c.tga.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\laser-gun\textures\gun_m.tga.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Models\laser-gun\textures\gun_m.tga.png
+      projectPath: Assets\Models\laser-gun\textures\gun_m.tga.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\laser-gun\textures\gun_n.tga.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Models\laser-gun\textures\gun_n.tga.png
+      projectPath: Assets\Models\laser-gun\textures\gun_n.tga.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Resources.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources.meta
+      projectPath: Assets\Resources.meta
+      originalPath: Assets\Models.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\PointerPrefab.prefab
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\PointerPrefab.prefab
+      projectPath: Assets\Resources\PointerPrefab.prefab
+      originalPath: Assets\Models\PointerPrefab.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\PointerPrefab.prefab.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\PointerPrefab.prefab.meta
+      projectPath: Assets\Resources\PointerPrefab.prefab.meta
+      originalPath: Assets\Models\PointerPrefab.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\gun.prefab
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\gun.prefab
+      projectPath: Assets\Resources\gun.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Resources\gun.prefab.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\gun.prefab.meta
+      projectPath: Assets\Resources\gun.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun.meta
+      projectPath: Assets\Resources\laser-gun.meta
+      originalPath: Assets\Models\laser-gun.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\gun.fbx
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\gun.fbx
+      projectPath: Assets\Resources\laser-gun\gun.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\gun.fbx.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\gun.fbx.meta
+      projectPath: Assets\Resources\laser-gun\gun.fbx.meta
+      originalPath: Assets\Models\laser-gun\source\gun.fbx.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\source.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\source.meta
+      projectPath: Assets\Resources\laser-gun\source.meta
+      originalPath: Assets\Models\laser-gun\source.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\source\Materials.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\source\Materials.meta
+      projectPath: Assets\Resources\laser-gun\source\Materials.meta
+      originalPath: Assets\Models\laser-gun\source\Materials.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\source\Materials\lambert10.mat
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\source\Materials\lambert10.mat
+      projectPath: Assets\Resources\laser-gun\source\Materials\lambert10.mat
+      originalPath: Assets\Models\laser-gun\source\Materials\lambert10.mat
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\source\Materials\lambert10.mat.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\source\Materials\lambert10.mat.meta
+      projectPath: Assets\Resources\laser-gun\source\Materials\lambert10.mat.meta
+      originalPath: Assets\Models\laser-gun\source\Materials\lambert10.mat.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: "Assets\\Resources\\laser-gun\\source\\Materials\\\u68CB\u76D8\u683CUV.mat"
+      fullPath: "A:\\Projects\\Unity\\HackBots.E.ONE\\Assets\\Resources\\laser-gun\\source\\Materials\\\u68CB\u76D8\u683CUV.mat"
+      projectPath: "Assets\\Resources\\laser-gun\\source\\Materials\\\u68CB\u76D8\u683CUV.mat"
+      originalPath: "Assets\\Models\\laser-gun\\source\\Materials\\\u68CB\u76D8\u683CUV.mat"
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: "Assets\\Resources\\laser-gun\\source\\Materials\\\u68CB\u76D8\u683CUV.mat.meta"
+      fullPath: "A:\\Projects\\Unity\\HackBots.E.ONE\\Assets\\Resources\\laser-gun\\source\\Materials\\\u68CB\u76D8\u683CUV.mat.meta"
+      projectPath: "Assets\\Resources\\laser-gun\\source\\Materials\\\u68CB\u76D8\u683CUV.mat.meta"
+      originalPath: "Assets\\Models\\laser-gun\\source\\Materials\\\u68CB\u76D8\u683CUV.mat.meta"
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\textures.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\textures.meta
+      projectPath: Assets\Resources\laser-gun\textures.meta
+      originalPath: Assets\Models\laser-gun\textures.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\textures\gun_E.tga.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\textures\gun_E.tga.png
+      projectPath: Assets\Resources\laser-gun\textures\gun_E.tga.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\textures\gun_E.tga.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\textures\gun_E.tga.png.meta
+      projectPath: Assets\Resources\laser-gun\textures\gun_E.tga.png.meta
+      originalPath: Assets\Models\laser-gun\textures\gun_E.tga.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\textures\gun_ao.tga.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\textures\gun_ao.tga.png
+      projectPath: Assets\Resources\laser-gun\textures\gun_ao.tga.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\textures\gun_ao.tga.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\textures\gun_ao.tga.png.meta
+      projectPath: Assets\Resources\laser-gun\textures\gun_ao.tga.png.meta
+      originalPath: Assets\Models\laser-gun\textures\gun_ao.tga.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\textures\gun_c.tga.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\textures\gun_c.tga.png
+      projectPath: Assets\Resources\laser-gun\textures\gun_c.tga.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\textures\gun_c.tga.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\textures\gun_c.tga.png.meta
+      projectPath: Assets\Resources\laser-gun\textures\gun_c.tga.png.meta
+      originalPath: Assets\Models\laser-gun\textures\gun_c.tga.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\textures\gun_m.tga.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\textures\gun_m.tga.png
+      projectPath: Assets\Resources\laser-gun\textures\gun_m.tga.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\textures\gun_m.tga.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\textures\gun_m.tga.png.meta
+      projectPath: Assets\Resources\laser-gun\textures\gun_m.tga.png.meta
+      originalPath: Assets\Models\laser-gun\textures\gun_m.tga.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\textures\gun_n.tga.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\textures\gun_n.tga.png
+      projectPath: Assets\Resources\laser-gun\textures\gun_n.tga.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\textures\gun_n.tga.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\textures\gun_n.tga.png.meta
+      projectPath: Assets\Resources\laser-gun\textures\gun_n.tga.png.meta
+      originalPath: Assets\Models\laser-gun\textures\gun_n.tga.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\textures\gun_r.tga.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\textures\gun_r.tga.png
+      projectPath: Assets\Resources\laser-gun\textures\gun_r.tga.png
+      originalPath: Assets\Models\laser-gun\textures\gun_r.tga.png
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Resources\laser-gun\textures\gun_r.tga.png.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Resources\laser-gun\textures\gun_r.tga.png.meta
+      projectPath: Assets\Resources\laser-gun\textures\gun_r.tga.png.meta
+      originalPath: Assets\Models\laser-gun\textures\gun_r.tga.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\Abhiram\CloudAnchors.unity
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Abhiram\CloudAnchors.unity
+      projectPath: Assets\Scenes\Abhiram\CloudAnchors.unity
+      originalPath: Assets\GoogleARCore\Examples\CloudAnchors\Scenes\CloudAnchors.unity
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\Abhiram\CloudAnchors.unity.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Abhiram\CloudAnchors.unity.meta
+      projectPath: Assets\Scenes\Abhiram\CloudAnchors.unity.meta
+      originalPath: Assets\GoogleARCore\Examples\CloudAnchors\Scenes\CloudAnchors.unity.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\CloudAnchorManager.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\CloudAnchorManager.cs
+      projectPath: Assets\Scripts\CloudAnchorManager.cs
+      originalPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\CloudAnchorManager.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\CloudAnchorManager.cs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\CloudAnchorManager.cs.meta
+      projectPath: Assets\Scripts\CloudAnchorManager.cs.meta
+      originalPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\CloudAnchorManager.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\GameManager.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\GameManager.cs
+      projectPath: Assets\Scripts\GameManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\UIManager.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\UIManager.cs
+      projectPath: Assets\Scripts\UIManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 03eafe5beb8b33d4c8abad33bcb22bd2250c6e7b
+    mergeA: ace48ca143466205fac62c5160e6cca148771db3
+    mergeB: 57651f76d75edc9f213393b565ac5ac2d5d99a60
+    authorName: aymusbond
+    authorEmail: aymusbond@users.noreply.github.com
+    commitEmail: aymusbond@users.noreply.github.com
+    commitName: aymusbond
+    summary: Merge branch 'master' of https://github.com/aymusbond/HackBots.E.ONE
+    description: 
+    timeString: 2020-08-15T17:30:04.000+05:30
+    commitTimeString: 2020-08-15T17:30:04.000+05:30
+    changes: []
+  - commitID: ace48ca143466205fac62c5160e6cca148771db3
+    mergeA: 
+    mergeB: 
+    authorName: aymusbond
+    authorEmail: aymusbond@users.noreply.github.com
+    commitEmail: aymusbond@users.noreply.github.com
+    commitName: aymusbond
+    summary: The Gun Aim Scope is working now!
+    description: 
+    timeString: 2020-08-15T17:21:33.000+05:30
+    commitTimeString: 2020-08-15T17:21:33.000+05:30
+    changes:
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\ear_fur.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\ear_fur.png
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\ear_fur.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\eyelashes_alpha.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\eyelashes_alpha.png
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\eyelashes_alpha.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\fox_face_mesh_texture.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\fox_face_mesh_texture.png
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\fox_face_mesh_texture.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\highlighter_screen.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\highlighter_screen.png
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\highlighter_screen.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\nose_fur.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\nose_fur.png
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\nose_fur.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\shadows_multiply.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\shadows_multiply.png
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\shadows_multiply.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Models\canonical_face_mesh.fbx
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Models\canonical_face_mesh.fbx
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Models\canonical_face_mesh.fbx
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Models\canonical_face_texture.psd
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Models\canonical_face_texture.psd
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Models\canonical_face_texture.psd
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Models\fox_sample.fbx
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Models\fox_sample.fbx
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Models\fox_sample.fbx
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\000.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\000.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\000.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\001.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\001.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\001.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\002.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\002.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\002.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\003.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\003.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\003.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\004.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\004.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\004.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\005.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\005.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\005.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\006.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\006.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\006.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\007.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\007.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\007.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\008.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\008.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\008.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\009.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\009.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\009.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameLowerLeft.obj
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameLowerLeft.obj
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameLowerLeft.obj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameLowerRight.obj
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameLowerRight.obj
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameLowerRight.obj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameUpperLeft.obj
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameUpperLeft.obj
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameUpperLeft.obj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameUpperRight.obj
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameUpperRight.obj
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameUpperRight.obj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Textures\fit_to_scan.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Textures\fit_to_scan.png
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Textures\fit_to_scan.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Textures\frame_base.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Textures\frame_base.png
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Textures\frame_base.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Materials\StarDiffuse.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Materials\StarDiffuse.png
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Materials\StarDiffuse.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Models\Star_01.obj
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Models\Star_01.obj
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Models\Star_01.obj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\ARCore_pawn.fbx
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\ARCore_pawn.fbx
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\ARCore_pawn.fbx
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\Textures\AugmentedFaceIcon.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\Textures\AugmentedFaceIcon.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\Textures\AugmentedFaceIcon.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\Textures\AugmentedImageIcon.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\Textures\AugmentedImageIcon.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\Textures\AugmentedImageIcon.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\Textures\CloudAnchorIcon.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\Textures\CloudAnchorIcon.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\Textures\CloudAnchorIcon.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\Textures\ComputerVisionIcon.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\Textures\ComputerVisionIcon.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\Textures\ComputerVisionIcon.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\Textures\HelloARIcon.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\Textures\HelloARIcon.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\Textures\HelloARIcon.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\Textures\ObjectManipulationIcon.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\Textures\ObjectManipulationIcon.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\Textures\ObjectManipulationIcon.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\Textures\TriGrid.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\Textures\TriGrid.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\Textures\TriGrid.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\cloud_anchor.fbx
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\cloud_anchor.fbx
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\cloud_anchor.fbx
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Textures\ColorRamp.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Textures\ColorRamp.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Textures\ColorRamp.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Textures\transparent.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Textures\transparent.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Textures\transparent.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\ComputerVision\Plugins\src\arcore_camera_utility.zip
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\ComputerVision\Plugins\src\arcore_camera_utility.zip
+      projectPath: Assets\GoogleARCore\Examples\ComputerVision\Plugins\src\arcore_camera_utility.zip
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\ObjectManipulation\Materials\dottedline.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\ObjectManipulation\Materials\dottedline.png
+      projectPath: Assets\GoogleARCore\Examples\ObjectManipulation\Materials\dottedline.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\ObjectManipulation\Materials\footprint.obj
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\ObjectManipulation\Materials\footprint.obj
+      projectPath: Assets\GoogleARCore\Examples\ObjectManipulation\Materials\footprint.obj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll
+      projectPath: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll.meta
+      projectPath: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll
+      projectPath: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll.meta
+      projectPath: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar
+      projectPath: Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar.meta
+      projectPath: Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\Plugins\libarcore_unity_api.so
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Plugins\libarcore_unity_api.so
+      projectPath: Assets\GoogleARCore\SDK\Plugins\libarcore_unity_api.so
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\Plugins\libarcore_unity_api.so.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Plugins\libarcore_unity_api.so.meta
+      projectPath: Assets\GoogleARCore\SDK\Plugins\libarcore_unity_api.so.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\Plugins\libarpresto_api.so
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Plugins\libarpresto_api.so
+      projectPath: Assets\GoogleARCore\SDK\Plugins\libarpresto_api.so
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\Plugins\libarpresto_api.so.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Plugins\libarpresto_api.so.meta
+      projectPath: Assets\GoogleARCore\SDK\Plugins\libarpresto_api.so.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabEditorPrefsSO.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabEditorPrefsSO.asset
+      projectPath: Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabEditorPrefsSO.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Prefabs.meta
+      projectPath: Assets\Prefabs.meta
+      originalPath: Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabUnitySdk.unitypackage.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\Arpit.unity
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Arpit.unity
+      projectPath: Assets\Scenes\Arpit.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\WeaponAim.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\WeaponAim.cs
+      projectPath: Assets\Scripts\WeaponAim.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\WeaponAim.cs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\WeaponAim.cs.meta
+      projectPath: Assets\Scripts\WeaponAim.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\WeaponRecoil.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\WeaponRecoil.cs
+      projectPath: Assets\Scripts\WeaponRecoil.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 57651f76d75edc9f213393b565ac5ac2d5d99a60
+    mergeA: 
+    mergeB: 
+    authorName: manhiem
+    authorEmail: 59243227+manhiem@users.noreply.github.com
+    commitEmail: 59243227+manhiem@users.noreply.github.com
+    commitName: manhiem
+    summary: Join and Create Room using Cloud Anchor
+    description: 
+    timeString: 2020-08-15T17:11:45.000+05:30
+    commitTimeString: 2020-08-15T17:11:45.000+05:30
+    changes:
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\ear_fur.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\ear_fur.png
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\ear_fur.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\eyelashes_alpha.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\eyelashes_alpha.png
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\eyelashes_alpha.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\fox_face_mesh_texture.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\fox_face_mesh_texture.png
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\fox_face_mesh_texture.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\highlighter_screen.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\highlighter_screen.png
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\highlighter_screen.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\nose_fur.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\nose_fur.png
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\nose_fur.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\shadows_multiply.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\shadows_multiply.png
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Textures\shadows_multiply.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Models\canonical_face_mesh.fbx
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Models\canonical_face_mesh.fbx
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Models\canonical_face_mesh.fbx
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Models\canonical_face_texture.psd
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Models\canonical_face_texture.psd
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Models\canonical_face_texture.psd
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedFaces\Models\fox_sample.fbx
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedFaces\Models\fox_sample.fbx
+      projectPath: Assets\GoogleARCore\Examples\AugmentedFaces\Models\fox_sample.fbx
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\000.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\000.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\000.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\001.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\001.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\001.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\002.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\002.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\002.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\003.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\003.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\003.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\004.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\004.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\004.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\005.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\005.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\005.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\006.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\006.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\006.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\007.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\007.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\007.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\008.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\008.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\008.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Images\009.jpg
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Images\009.jpg
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Images\009.jpg
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameLowerLeft.obj
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameLowerLeft.obj
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameLowerLeft.obj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameLowerRight.obj
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameLowerRight.obj
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameLowerRight.obj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameUpperLeft.obj
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameUpperLeft.obj
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameUpperLeft.obj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameUpperRight.obj
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameUpperRight.obj
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Materials\Frame\FrameUpperRight.obj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Textures\fit_to_scan.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Textures\fit_to_scan.png
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Textures\fit_to_scan.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\AugmentedImage\Textures\frame_base.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\AugmentedImage\Textures\frame_base.png
+      projectPath: Assets\GoogleARCore\Examples\AugmentedImage\Textures\frame_base.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Materials\StarDiffuse.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Materials\StarDiffuse.png
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Materials\StarDiffuse.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Models\Star_01.obj
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Models\Star_01.obj
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Models\Star_01.obj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scenes\CloudAnchors.unity
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scenes\CloudAnchors.unity
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scenes\CloudAnchors.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\AnchorController.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\AnchorController.cs
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\AnchorController.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\AnchorIdFromRoomRequestMessage.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\AnchorIdFromRoomRequestMessage.cs
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\AnchorIdFromRoomRequestMessage.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\AnchorIdFromRoomRequestMessage.cs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\AnchorIdFromRoomRequestMessage.cs.meta
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\AnchorIdFromRoomRequestMessage.cs.meta
+      originalPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\LocalPlayerController.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\AnchorIdFromRoomResponseMessage.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\AnchorIdFromRoomResponseMessage.cs
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\AnchorIdFromRoomResponseMessage.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\AnchorIdFromRoomResponseMessage.cs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\AnchorIdFromRoomResponseMessage.cs.meta
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\AnchorIdFromRoomResponseMessage.cs.meta
+      originalPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\AnchorController.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\CloudAnchorManager.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\CloudAnchorManager.cs
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\CloudAnchorManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\CloudAnchorManager.cs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\CloudAnchorManager.cs.meta
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\CloudAnchorManager.cs.meta
+      originalPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\CloudAnchorsExampleController.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\CloudAnchorsExampleController.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\CloudAnchorsExampleController.cs
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\CloudAnchorsExampleController.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\LocalPlayerController.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\LocalPlayerController.cs
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\LocalPlayerController.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\NetworkManagerUIController.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\NetworkManagerUIController.cs
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\NetworkManagerUIController.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingClient.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingClient.cs
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingClient.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingClient.cs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingClient.cs.meta
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingClient.cs.meta
+      originalPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\NetworkManagerUIController.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingMsgType.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingMsgType.cs
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingMsgType.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingMsgType.cs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingMsgType.cs.meta
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingMsgType.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingServer.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingServer.cs
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingServer.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingServer.cs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingServer.cs.meta
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\RoomSharingServer.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\StarController.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\StarController.cs
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\StarController.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\StarController.cs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\CloudAnchors\Scripts\StarController.cs.meta
+      projectPath: Assets\GoogleARCore\Examples\CloudAnchors\Scripts\StarController.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\ARCore_pawn.fbx
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\ARCore_pawn.fbx
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\ARCore_pawn.fbx
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\Textures\AugmentedFaceIcon.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\Textures\AugmentedFaceIcon.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\Textures\AugmentedFaceIcon.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\Textures\AugmentedImageIcon.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\Textures\AugmentedImageIcon.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\Textures\AugmentedImageIcon.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\Textures\CloudAnchorIcon.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\Textures\CloudAnchorIcon.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\Textures\CloudAnchorIcon.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\Textures\ComputerVisionIcon.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\Textures\ComputerVisionIcon.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\Textures\ComputerVisionIcon.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\Textures\HelloARIcon.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\Textures\HelloARIcon.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\Textures\HelloARIcon.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\Textures\ObjectManipulationIcon.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\Textures\ObjectManipulationIcon.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\Textures\ObjectManipulationIcon.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\Textures\TriGrid.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\Textures\TriGrid.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\Textures\TriGrid.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Materials\cloud_anchor.fbx
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Materials\cloud_anchor.fbx
+      projectPath: Assets\GoogleARCore\Examples\Common\Materials\cloud_anchor.fbx
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Textures\ColorRamp.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Textures\ColorRamp.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Textures\ColorRamp.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\Common\Textures\transparent.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\Common\Textures\transparent.png
+      projectPath: Assets\GoogleARCore\Examples\Common\Textures\transparent.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\ComputerVision\Plugins\src\arcore_camera_utility.zip
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\ComputerVision\Plugins\src\arcore_camera_utility.zip
+      projectPath: Assets\GoogleARCore\Examples\ComputerVision\Plugins\src\arcore_camera_utility.zip
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\ObjectManipulation\Materials\dottedline.png
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\ObjectManipulation\Materials\dottedline.png
+      projectPath: Assets\GoogleARCore\Examples\ObjectManipulation\Materials\dottedline.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\Examples\ObjectManipulation\Materials\footprint.obj
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\Examples\ObjectManipulation\Materials\footprint.obj
+      projectPath: Assets\GoogleARCore\Examples\ObjectManipulation\Materials\footprint.obj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll
+      projectPath: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll.meta
+      projectPath: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_shared.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll
+      projectPath: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll.meta
+      projectPath: Assets\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\instant_preview_unity_plugin.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar
+      projectPath: Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar.meta
+      projectPath: Assets\GoogleARCore\SDK\Plugins\cloud_anchor_manifest.aar.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\Plugins\libarcore_unity_api.so
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Plugins\libarcore_unity_api.so
+      projectPath: Assets\GoogleARCore\SDK\Plugins\libarcore_unity_api.so
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\Plugins\libarcore_unity_api.so.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Plugins\libarcore_unity_api.so.meta
+      projectPath: Assets\GoogleARCore\SDK\Plugins\libarcore_unity_api.so.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\Plugins\libarpresto_api.so
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Plugins\libarpresto_api.so
+      projectPath: Assets\GoogleARCore\SDK\Plugins\libarpresto_api.so
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\Plugins\libarpresto_api.so.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\GoogleARCore\SDK\Plugins\libarpresto_api.so.meta
+      projectPath: Assets\GoogleARCore\SDK\Plugins\libarpresto_api.so.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\PointerPrefab.prefab
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Models\PointerPrefab.prefab
+      projectPath: Assets\Models\PointerPrefab.prefab
+      originalPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Prefabs\PointerPrefab.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Models\PointerPrefab.prefab.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Models\PointerPrefab.prefab.meta
+      projectPath: Assets\Models\PointerPrefab.prefab.meta
+      originalPath: Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Prefabs\PointerPrefab.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabEditorPrefsSO.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabEditorPrefsSO.asset
+      projectPath: Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabEditorPrefsSO.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Abhiram.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Abhiram.meta
+      projectPath: Assets\Scenes\Abhiram.meta
+      originalPath: Assets\PlayFabEditorExtensions\Editor\Resources\PlayFabUnitySdk.unitypackage.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\Abhiram\Abhiram.unity
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Abhiram\Abhiram.unity
+      projectPath: Assets\Scenes\Abhiram\Abhiram.unity
+      originalPath: Assets\Scenes\Abhiram.unity
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\Abhiram\Abhiram.unity.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Abhiram\Abhiram.unity.meta
+      projectPath: Assets\Scenes\Abhiram\Abhiram.unity.meta
+      originalPath: Assets\Scenes\Abhiram.unity.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\Padmaja.unity
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Padmaja.unity
+      projectPath: Assets\Scenes\Padmaja.unity
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scenes\Padmaja.unity.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\Padmaja.unity.meta
+      projectPath: Assets\Scenes\Padmaja.unity.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts\GameManager.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\GameManager.cs
+      projectPath: Assets\Scripts\GameManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GameManager.cs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\GameManager.cs.meta
+      projectPath: Assets\Scripts\GameManager.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\SettingsMenu.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\SettingsMenu.cs
+      projectPath: Assets\Scripts\SettingsMenu.cs
+      originalPath: Assets\SettingsMenu.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\SettingsMenu.cs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\SettingsMenu.cs.meta
+      projectPath: Assets\Scripts\SettingsMenu.cs.meta
+      originalPath: Assets\SettingsMenu.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\UIManager.cs
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\UIManager.cs
+      projectPath: Assets\Scripts\UIManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\UIManager.cs.meta
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\Assets\Scripts\UIManager.cs.meta
+      projectPath: Assets\Scripts\UIManager.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ARCoreProjectSettings.json
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\ARCoreProjectSettings.json
+      projectPath: ProjectSettings\ARCoreProjectSettings.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: A:\Projects\Unity\HackBots.E.ONE\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 3c5bbae08a152a4d6c0f21fd6da554d9d02db768
     mergeA: 2d76876a0377c4c994b5deb561c38b5d1893368e
     mergeB: 829414364a7ef0eff20cb5737b043bf000ff4d6e
